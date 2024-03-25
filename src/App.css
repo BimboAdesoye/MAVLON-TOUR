@@ -135,3 +135,34 @@ option {
   font-family: Arial, sans-serif;
   padding: 5px;
 }
+
+.hero-section {
+  background-image: url("./assets/hero-bg.svg");
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section .union-1 {
+  position: absolute;
+  width: 893.61px;
+  height: 439.95px;
+  top: 270.13px;
+  left: -370px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.hero-section .union-2 {
+  position: fixed;
+  width: 604.46px;
+  height: 820.43px;
+  /* top: 358.45px; */
+  /* left: 1612.62px; */
+  right: 0;
+  gap: 0px;
+  border: 2.44px 0px 0px 0px;
+  opacity: 0px;
+  /* angle: -165.1 deg; */
+}

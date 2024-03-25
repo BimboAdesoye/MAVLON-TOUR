@@ -2,10 +2,13 @@ import notebookIcon from "../../assets/solar_notebook-bold.svg";
 import calendarIcon from "../../assets/solar_calendar-date-bold.svg";
 import mapIcon from "../../assets/solar_map-bold.svg";
 import GetStartedBtn from "../../components/Buttons/GetStartedBtn";
+import heroBg from "../../assets/hero-bg.svg";
+import union1 from "../../assets/Union1.svg";
+import union2 from "../../assets/Union.svg";
 
 const Hero = () => {
   return (
-    <main className="min-h-[542px] text-center pt-[52px] md:pt-[69px]">
+    <main className="h-[542px] text-center pt-[52px] md:pt-[69px] border relative hero-section">
       <header className="max-w-[804px] mx-auto flex flex-col gap-[41px]">
         <div className="mx-0 lg:mx-[19.5px]">
           <h1 className="text-5xl lg:text-6xl text-darkgreen font-semibold leading-[35.28px] md:leading-[53.76px]">
@@ -61,6 +64,8 @@ const Hero = () => {
           <GetStartedBtn text={"Get Started"} />
         </form>
       </header>
+      {/* <img className="union-1" src={union1} alt="" />
+      <img className="union-2" src={union2} alt="" /> */}
     </main>
   );
 };
