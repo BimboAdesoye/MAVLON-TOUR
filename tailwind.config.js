@@ -22,6 +22,7 @@ export default {
         grey: "#667085",
         btnColor: "#0000008f",
         btnColor2: "#FFFFFF4D",
+        borderColor: "#DBDBDB",
         gradient: {
           color1: "#7EFF9B",
           color2: "#1E695A",
