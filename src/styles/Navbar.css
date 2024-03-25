@@ -3,6 +3,10 @@
     font-size: calc(30px + 5 * ((100vw - 320px) / 320));
   }
 
+  header {
+    overflow: hidden;
+  }
+
   header nav ul {
     transition: 1s;
     transform: translateX(-100vw);

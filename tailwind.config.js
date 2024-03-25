@@ -20,6 +20,7 @@ export default {
         lightgreen: "#E2FDDC",
         white: "#FFFFFF",
         grey: "#667085",
+        ash: "#898989",
         btnColor: "#0000008f",
         btnColor2: "#FFFFFF4D",
         borderColor: "#DBDBDB",
@@ -29,19 +30,32 @@ export default {
         },
       },
     },
+    fontSize: {
+      xs: ".75rem", // 12px
+      sm: ".875rem", // 14px
+      base: "1rem", // 16px
+      lg: "1.125rem", // 18px
+      xl: "1.25rem", // 20px
+      "1xl": "1.375rem", // 22px
+      "2xl": "1.5rem", // 24px
+      "3xl": "1.875rem", // 30px
+      "4xl": "2.25rem", // 36px
+      "4.5xl": "2.5rem", // 40px
+      "5xl": "2.625rem", // 42px
+      "5.5xl": "3rem", // 48px
+      "6xl": "4rem", // 64px
+    },
+    fontWeight: {
+      hairline: 100,
+      thin: 200,
+      light: 300,
+      normal: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+      black: 900,
+    },
   },
-  fontSize: {
-    h1: "4rem", // 64px
-    h2: "3rem", // 48px
-    h3: "2.5rem", // 40px
-    h4: "1.5rem", // 24px
-    h5: "1.375rem", // 22px
-    h6: "0.875rem", // 14px
-    "body-one": "1.5rem", // 24pxme
-    "body-two": "1.375rem", // 22px
-    "body-three": "1.125rem", // 18px
-    "body-four": "1rem", // 16px
-  },
-  fontWeight: {},
   plugins: [flowbitePlugin],
 };

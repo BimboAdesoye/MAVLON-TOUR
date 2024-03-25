@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex justify-between h-[80px] py-[18px] px-3 relative items-center">
+    <header className="flex justify-between h-[80px] py-[18px] relative items-center">
       <img
         className="w-[66px] h-[20px] lg:w-[79.22px] lg:h-[24px]"
         src={MavlonLogo}
