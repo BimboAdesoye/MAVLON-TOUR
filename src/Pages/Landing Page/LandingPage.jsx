@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Milestones from "./Milestones";
 import OurPackages from "./OurPackages";
 import Footer from "../../components/Footer";
+import Contact from "../../components/Contact";
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <Milestones />
         <AboutUs />
         <OurPackages />
+        <Contact />
       </main>
       <Footer />
     </main>
