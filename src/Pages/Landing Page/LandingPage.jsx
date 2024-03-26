@@ -3,6 +3,7 @@ import AboutUs from "./AboutUs";
 import Hero from "./Hero";
 import Milestones from "./Milestones";
 import OurPackages from "./OurPackages";
+import Footer from "../../components/Footer";
 
 const LandingPage = () => {
   return (
@@ -10,12 +11,13 @@ const LandingPage = () => {
       <header>
         <Navbar />
       </header>
-      <section>
+      <main>
         <Hero />
         <Milestones />
         <AboutUs />
         <OurPackages />
-      </section>
+      </main>
+      <Footer />
     </main>
   );
 };
