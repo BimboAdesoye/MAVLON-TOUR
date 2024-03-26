@@ -166,3 +166,17 @@ option {
   opacity: 0px;
   /* angle: -165.1 deg; */
 }
+
+.package-bg-1 {
+  background-image: url(./assets/graduation-img.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.package-bg-2 {
+  background-image: url(./assets/travel-kit-img.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

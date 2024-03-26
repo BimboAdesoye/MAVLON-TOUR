@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar";
 import AboutUs from "./AboutUs";
 import Hero from "./Hero";
 import Milestones from "./Milestones";
+import OurPackages from "./OurPackages";
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
         <Hero />
         <Milestones />
         <AboutUs />
+        <OurPackages />
       </section>
     </main>
   );
