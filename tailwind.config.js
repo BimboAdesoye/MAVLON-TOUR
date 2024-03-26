@@ -19,6 +19,7 @@ export default {
         mediumgreen: "#7EFF9B",
         lightgreen: "#E2FDDC",
         white: "#FFFFFF",
+        whiteAccent: "#FFFFFF99",
         grey: "#667085",
         ash: "#898989",
         btnColor: "#0000008f",
@@ -39,6 +40,7 @@ export default {
       "1xl": "1.375rem", // 22px
       "2xl": "1.5rem", // 24px
       "3xl": "1.875rem", // 30px
+      "3.5xl": "2rem", // 30px
       "4xl": "2.25rem", // 36px
       "4.5xl": "2.5rem", // 40px
       "5xl": "2.625rem", // 42px

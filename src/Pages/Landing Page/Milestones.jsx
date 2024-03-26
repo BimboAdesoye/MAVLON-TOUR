@@ -1,7 +1,7 @@
 const Milestones = () => {
   return (
-    <section className=" h-[408px] lg:h-[215px] w-full flex flex-col lg:flex-row mb-8">
-      <div className="h-full flex flex-1 lg:pl-[60px] text-center lg:text-left items-center">
+    <section className="h-[408px] lg:h-[215px] w-full flex flex-col lg:flex-row container">
+      <div className="h-full flex flex-1 text-center lg:text-left items-center">
         <div className="max-w-[150px] mx-auto lg:mx-0">
           <h1 className="text-5xl lg:text-6xl text-darkgreen font-semibold">
             200+

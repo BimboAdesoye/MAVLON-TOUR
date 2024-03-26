@@ -1,16 +1,18 @@
 import Navbar from "../../components/Navbar";
+import AboutUs from "./AboutUs";
 import Hero from "./Hero";
 import Milestones from "./Milestones";
 
 const LandingPage = () => {
   return (
-    <main className="container">
+    <main>
       <header>
         <Navbar />
       </header>
       <section>
         <Hero />
-        <Milestones/>
+        <Milestones />
+        <AboutUs />
       </section>
     </main>
   );
