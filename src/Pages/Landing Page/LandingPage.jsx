@@ -5,6 +5,7 @@ import Milestones from "./Milestones";
 import OurPackages from "./OurPackages";
 import Footer from "../../components/Footer";
 import Contact from "../../components/Contact";
+import ViewPackages from "../../components/ViewPackages";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
         <AboutUs />
         <OurPackages />
         <Contact />
+        <ViewPackages />
       </main>
       <Footer />
     </main>
