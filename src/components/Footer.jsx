@@ -15,9 +15,7 @@ const Footer = () => {
         </div>
         <div className="w-full lg:w-1/2 h-auto lg:h-full flex flex-wrap lg:gap-[32px] footer-nav">
           <ul className="w-1/2 lg:flex-1">
-            <li>
-              <Link>Nav</Link>
-            </li>
+            <li>Nav</li>
             <li>
               <Link>Home</Link>
             </li>
@@ -35,9 +33,7 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="w-1/2 lg:flex-1">
-            <li>
-              <Link>Educational</Link>
-            </li>
+            <li>Educational</li>
             <li>
               <Link>Study Abroad</Link>
             </li>
@@ -58,9 +54,7 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="w-1/2 lg:flex-1">
-            <li>
-              <Link>Trips</Link>
-            </li>
+            <li>Trips</li>
             <li>
               <Link>World Cup Deal</Link>
             </li>
