@@ -7,6 +7,12 @@ const Testimonial = () => {
           Hear from some of our satisfied customers
         </h3>
       </div>
+      <div className="bg-darkgreen w-full h-50px py-11 text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+        voluptatem at nam nostrum maxime cupiditate ullam consequatur. Sapiente
+        minus possimus optio maiores veritatis consequuntur corporis soluta,
+        atque expedita ab repellat!
+      </div>
     </div>
   );
 };

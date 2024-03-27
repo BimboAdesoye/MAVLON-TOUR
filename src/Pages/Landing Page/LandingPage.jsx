@@ -8,6 +8,7 @@ import Contact from "../../components/Contact";
 import ViewPackages from "../../components/ViewPackages";
 import TopPackages from "./TopPackages";
 import Testimonial from "../../components/Testimonial";
+import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
 
 const LandingPage = () => {
   return (
@@ -22,6 +23,7 @@ const LandingPage = () => {
         <OurPackages />
         <TopPackages />
         <Testimonial />
+        <FrequentlyAskedQuestions />
         <Contact />
         <ViewPackages />
       </main>
