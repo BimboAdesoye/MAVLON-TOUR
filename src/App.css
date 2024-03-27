@@ -209,3 +209,46 @@ option {
   font-size: 22px;
   color: #ffffffde;
 }
+
+.top-packages .top-package-1 {
+  background-image: url(./assets/canada-img.svg);
+}
+
+.top-packages .top-package-2 {
+  background-image: url(./assets/london-img.svg);
+}
+
+.top-packages .top-package-3 {
+  background-image: url(./assets/israel-img.svg);
+}
+
+.top-packages .top-package-4 {
+  background-image: url(./assets/ocean-img.svg);
+}
+
+.top-packages div {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-packages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr auto;
+  gap: 12px;
+  margin-inline: auto;
+}
+
+.top-packages .top-package-1 {
+  grid-column: span 3;
+}
+
+/* .top-packages .top-package-3 {
+  margin-left: 12px;
+} */
+
+.top-packages .top-package-4 {
+  grid-column: span 3;
+  grid-row: 3;
+}
