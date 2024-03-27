@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import accordionOpenImg from "../assets/accordion-open-icon.svg";
 import accordionClosedImg from "../assets/accordion-closed-icon.svg";
 
-const Accordion = ({ question, answer, number, open }) => {
+const Accordion = ({ question, answer, number, open, }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   const handleAccordion = () => {
@@ -39,7 +39,7 @@ const Accordion = ({ question, answer, number, open }) => {
         </button>
       </div>
       <div
-        className={`w-full mt-[22px] lg:mt-[13px] lg:mr-[8px] lg:ml-[11px] lg:px-[51px] pt-[13px] pb-[28px] lg:border-l-2 border-borderColor h-auto grid overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`w-full mt-[22px] lg:mt-[13px] lg:mr-[8px] lg:ml-[11px] lg:px-[51px] pt-[13px] pb-[28px]  grid overflow-hidden transition-all lg:border-l-2 border-borderColor h-auto duration-300 ease-in-out ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"

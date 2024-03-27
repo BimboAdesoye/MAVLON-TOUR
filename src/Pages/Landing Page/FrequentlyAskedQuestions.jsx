@@ -1,6 +1,31 @@
 import Accordion from "../../components/Accordion";
+import { useEffect } from "react";
 
 const FrequentlyAskedQuestions = () => {
+  
+  useEffect(() => {
+    // Store the current scroll position in localStorage
+    const handleScroll = () => {
+      localStorage.setItem("scrollPosition", window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      // Remove the stored scroll position when the component unmounts
+      window.removeEventListener("scroll", handleScroll);
+      localStorage.removeItem("scrollPosition");
+    };
+  }, []);
+
+  useEffect(() => {
+    // Scroll to the stored position when the component re-renders
+    const storedScrollPosition = localStorage.getItem("scrollPosition");
+    if (storedScrollPosition) {
+      window.scrollTo(0, parseInt(storedScrollPosition));
+    }
+  }, []);
+
   return (
     <div className="bg-white w-full">
       <div className="container w-full pt-[44px] lg:pt-[65px] pb-[77px] lg:pb-[131px] flex flex-col justify-center items-center h-auto">
