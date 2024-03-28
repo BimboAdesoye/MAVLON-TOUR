@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex justify-between h-[80px] py-[18px] relative items-center container">
+    <header className="flex justify-between h-[50px] lg:h-[80px] py-[18px] relative items-center container">
       <img
         className="w-[66px] h-[20px] lg:w-[79.22px] lg:h-[24px]"
         src={MavlonLogo}
@@ -47,7 +47,10 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="body-two text-white  md:text-darkgreen">
+            <Link
+              to={"/about-us"}
+              className="body-two text-white  md:text-darkgreen"
+            >
               About Us
             </Link>
           </li>
@@ -57,7 +60,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="items-center border-solid border-2 w-[257px] md:w-[225px] h-[44px] rounded-[49px] px-[10px] py-[16px] hidden md:flex">
+        {/* <div className="items-center border-solid border-2 w-[257px] md:w-[225px] h-[44px] rounded-[49px] px-[10px] py-[16px] hidden md:flex">
           <img
             className="w-[16px] h-[16px]"
             src={searchIconAccent}
@@ -68,7 +71,7 @@ const Navbar = () => {
             type="search"
             placeholder="Search Opportunity"
           />
-        </div>
+        </div> */}
         <div className="mobile-nav flex gap-[20px] md:hidden items-center">
           <img src={searchIcon} alt="search-icon" />
           <img

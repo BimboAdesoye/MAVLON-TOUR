@@ -1,30 +1,30 @@
 import Accordion from "../../components/Accordion";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 const FrequentlyAskedQuestions = () => {
   
-  useEffect(() => {
-    // Store the current scroll position in localStorage
-    const handleScroll = () => {
-      localStorage.setItem("scrollPosition", window.scrollY);
-    };
+  // useEffect(() => {
+  //   // Store the current scroll position in localStorage
+  //   const handleScroll = () => {
+  //     localStorage.setItem("scrollPosition", window.scrollY);
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      // Remove the stored scroll position when the component unmounts
-      window.removeEventListener("scroll", handleScroll);
-      localStorage.removeItem("scrollPosition");
-    };
-  }, []);
+  //   return () => {
+  //     // Remove the stored scroll position when the component unmounts
+  //     window.removeEventListener("scroll", handleScroll);
+  //     localStorage.removeItem("scrollPosition");
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    // Scroll to the stored position when the component re-renders
-    const storedScrollPosition = localStorage.getItem("scrollPosition");
-    if (storedScrollPosition) {
-      window.scrollTo(0, parseInt(storedScrollPosition));
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Scroll to the stored position when the component re-renders
+  //   const storedScrollPosition = localStorage.getItem("scrollPosition");
+  //   if (storedScrollPosition) {
+  //     window.scrollTo(0, parseInt(storedScrollPosition));
+  //   }
+  // }, []);
 
   return (
     <div className="bg-white w-full">
