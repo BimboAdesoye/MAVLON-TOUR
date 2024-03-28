@@ -256,3 +256,12 @@ option {
   grid-column: span 3;
   grid-row: 3;
 }
+
+@media screen and (max-width: 1024px) {
+  .container.custom-container {
+    max-width: none;
+    width: 100%;
+    padding-inline: 0;
+    margin-inline: auto;
+  }
+}
