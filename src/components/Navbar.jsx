@@ -28,21 +28,28 @@ const Navbar = () => {
 
   return (
     <header className="flex justify-between h-[50px] lg:h-[80px] py-[18px] relative items-center container">
-      <img
-        className="w-[66px] h-[20px] lg:w-[79.22px] lg:h-[24px]"
-        src={MavlonLogo}
-        alt="mavlon logo"
-      />
+      <Link to={"/"}>
+        <img
+          className="w-[66px] h-[20px] lg:w-[79.22px] lg:h-[24px]"
+          src={MavlonLogo}
+          alt="mavlon logo"
+        />
+      </Link>
       <nav className="flex items-center gap-[40px]">
         <ul
           ref={navRef}
           className="flex gap-[70px] md:gap-[40px] absolute md:static flex-col items-center justify-center md:flex-row inset-0 top-20 h-[88vh] md:h-auto w-screen md:w-auto bg-darkgreen md:bg-inherit"
         >
           <li>
-            <Link className="body-two text-white  md:text-darkgreen">Home</Link>
+            <Link to={"/"} className="body-two text-white  md:text-darkgreen">
+              Home
+            </Link>
           </li>
           <li>
-            <Link className="body-two text-white  md:text-darkgreen">
+            <Link
+              to={"/programs"}
+              className="body-two text-white  md:text-darkgreen"
+            >
               Trips & Programs
             </Link>
           </li>

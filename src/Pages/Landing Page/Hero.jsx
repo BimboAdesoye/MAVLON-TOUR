@@ -1,7 +1,6 @@
 import notebookIcon from "../../assets/solar_notebook-bold.svg";
 import calendarIcon from "../../assets/solar_calendar-date-bold.svg";
 import mapIcon from "../../assets/solar_map-bold.svg";
-import GetStartedBtn from "../../components/Buttons/GetStartedBtn";
 // import heroBg from "../../assets/hero-bg.svg";
 // import union1 from "../../assets/Union1.svg";
 // import union2 from "../../assets/Union.svg";
@@ -62,7 +61,9 @@ const Hero = () => {
                 </select>
               </div>
             </div>
-            <GetStartedBtn text={"Get Started"} />
+            <button className="bg-darkgreen text-white rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full lg:w-[119px] h-[56px] lg:h-[58px] flex items-center justify-center font-semibold">
+              Get Started
+            </button>
           </form>
         </header>
         {/* <img className="union-1" src={union1} alt="" />

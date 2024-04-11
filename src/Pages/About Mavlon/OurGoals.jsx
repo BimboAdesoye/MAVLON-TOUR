@@ -19,7 +19,7 @@ const OurGoals = () => {
             service to multiple clients.
           </p>
         </div>
-        <div className="mt-[32px] lg:mt-[43px] flex flex-col lg:flex-row gap-[16px] lg:gap-[24px]">
+        <div className="mt-[32px] lg:mt-[43px] mb-[19px] lg:mb-0 flex flex-col lg:flex-row gap-[16px] lg:gap-[24px]">
           <span className="rounded-[9.55px] lg:rounded-[16px] overflow-hidden lg:rounded-br-none lg:rounded-bl-none">
             <img className="w-full h-full object-cover" src={image1} alt="" />
           </span>

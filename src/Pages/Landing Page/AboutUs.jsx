@@ -1,9 +1,9 @@
-import aboutUsImg from "../../assets/about-us-image.svg";
+import aboutUsImg from "../../assets/about-us-image.jpg";
 
 const AboutUs = () => {
   return (
     <section className="bg-darkgreen">
-      <div className="flex flex-col lg:flex-row min-h-[815px] lg:min-h-[650px]">
+      <div className="flex flex-col lg:flex-row min-h-[815px] lg:h-[650px]">
         <div className="container mt-[74px] lg:mt-[94px] w-full h-[407.5px] lg:h-full lg:w-1/2">
           <h6 className="text-lg lg:text-xl font-bold text-white lg:text-whiteAccent mb-[16px] lg:[mb-0]">
             ABOUT MAVLON
@@ -14,7 +14,7 @@ const AboutUs = () => {
             destinations.
           </h2>
         </div>
-        <div className="w-full lg:w-1/2 h-[407.5px] lg:h-full">
+        <div className="w-full lg:w-1/2 h-full lg:h-full">
           <img className="w-full h-full object-cover" src={aboutUsImg} alt="" />
         </div>
       </div>
