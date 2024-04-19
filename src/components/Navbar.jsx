@@ -1,5 +1,4 @@
 import MavlonLogo from "../assets/MavlonLogo.svg";
-import searchIconAccent from "../assets/search-icon-accent.svg";
 import searchIcon from "../assets/search-icon.svg";
 import mobileNav from "../assets/open-nav-icon.svg";
 import { Link } from "react-router-dom";
@@ -41,14 +40,14 @@ const Navbar = () => {
           className="flex gap-[70px] md:gap-[40px] absolute md:static flex-col items-center justify-center md:flex-row inset-0 top-20 h-[88vh] md:h-auto w-screen md:w-auto bg-darkgreen md:bg-inherit"
         >
           <li>
-            <Link to={"/"} className="body-two text-white  md:text-darkgreen">
+            <Link to={"/"} className="text-darkgreen font-medium text-1xl leading-[24px]">
               Home
             </Link>
           </li>
           <li>
             <Link
               to={"/programs"}
-              className="body-two text-white  md:text-darkgreen"
+              className="text-darkgreen font-medium text-1xl leading-[24px]"
             >
               Trips & Programs
             </Link>
@@ -56,29 +55,17 @@ const Navbar = () => {
           <li>
             <Link
               to={"/about-us"}
-              className="body-two text-white  md:text-darkgreen"
+              className="text-darkgreen font-medium text-1xl leading-[24px]"
             >
               About Us
             </Link>
           </li>
           <li>
-            <Link className="body-two text-white  md:text-darkgreen">
+            <Link className="text-darkgreen font-medium text-1xl leading-[24px]">
               Book Now
             </Link>
           </li>
         </ul>
-        {/* <div className="items-center border-solid border-2 w-[257px] md:w-[225px] h-[44px] rounded-[49px] px-[10px] py-[16px] hidden md:flex">
-          <img
-            className="w-[16px] h-[16px]"
-            src={searchIconAccent}
-            alt="search-icon"
-          />
-          <input
-            className="border-none font-semibold focus:ring-0"
-            type="search"
-            placeholder="Search Opportunity"
-          />
-        </div> */}
         <div className="mobile-nav flex gap-[20px] md:hidden items-center">
           <img src={searchIcon} alt="search-icon" />
           <img

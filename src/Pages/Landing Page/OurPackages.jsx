@@ -1,5 +1,4 @@
 import arrow from "../../assets/view-more-arrow.svg";
-import sampleImg from "../../assets/graduation-image.jpg";
 
 const OurPackages = () => {
   return (
@@ -30,7 +29,7 @@ const OurPackages = () => {
           </div>
         </div>
         <div className="h-[332px] lg:min-h-[571px] w-full lg:w-1/2 rounded-[24px] lg:rounded-br-none lg:rounded-bl-none package-bg-2 flex flex-col">
-          {/* <div className="bg-black bg-opacity-40 backdrop-filter backdrop-blur-md h-[150px] lg:h-[200px] mt-auto flex items-center justify-between relative px-[21px] lg:px-[32px] rounded-[24px] lg:rounded-[32px] lg:rounded-br-none lg:rounded-bl-none">
+          <div className="bg-black bg-opacity-40 backdrop-filter backdrop-blur-md h-[150px] lg:h-[200px] mt-auto flex items-center justify-between relative px-[21px] lg:px-[32px] rounded-[24px] lg:rounded-[32px] lg:rounded-br-none lg:rounded-bl-none">
             <span className="text-white  text-left">
               <h3 className="font-semibold text-2xl lg:text-4.5xl md:leading-[37.2px]">
                 Trips & Vacation Packages
@@ -45,8 +44,7 @@ const OurPackages = () => {
               src={arrow}
               alt="arrow-icon"
             />
-          </div> */}
-          <img className="h-full w-full object-cover" src={sampleImg} alt="" />
+          </div>
         </div>
       </div>
     </section>

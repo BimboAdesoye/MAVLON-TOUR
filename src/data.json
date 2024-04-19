@@ -72,7 +72,7 @@
     "id": 2,
     "title": "London Package",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
-    "tag": "Academic",
+    "tag": "Trip",
     "options": "1 Option",
     "image": "/london-img.jpg",
     "details": {
@@ -128,7 +128,7 @@
     "id": 3,
     "title": "London Package",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
-    "tag": "Academic",
+    "tag": "Trip",
     "options": "1 Option",
     "image": "/london-img.jpg",
     "details": {
@@ -182,6 +182,62 @@
   },
   {
     "id": 4,
+    "title": "London Package",
+    "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
+    "tag": "Academic",
+    "options": "1 Option",
+    "image": "/london-img.jpg",
+    "details": {
+      "Available programs": [
+        {
+          "id": 1,
+          "title": "International Conference on Education & Learning Technology",
+          "ref": "Registration reference: UK2401",
+          "date": "22nd-23rd April, 2024"
+        },
+        {
+          "id": 2,
+          "title": "International Conference on Social Science & Humanities",
+          "ref": "Registration reference: UK2402",
+          "date": "23rd-24th April, 2024"
+        },
+        {
+          "id": 3,
+          "title": "International Conference on Business, Economics & Policy",
+          "ref": "Registration reference: UK2403",
+          "date": "24th-25th April, 2024"
+        },
+        {
+          "id": 4,
+          "title": "International Conference on Science & Technology",
+          "ref": "Registration reference: UK2404",
+          "date": "25th-23th April, 2024."
+        }
+      ],
+      "Package Content": [
+        "UK Business Visitor’s Visa processing",
+        "4 nights Hotel Accommodation",
+        "Breakfast Daily",
+        "Welcome reception",
+        "Printed Participation & presentation Certificate",
+        "Printed Proceedings",
+        "Flight tickets is not included in the package"
+      ],
+      "How to Register": [
+        "Respond to this email with a scanned copy of their passport data page, quoting the registration reference of the conference they are interested in.",
+        "In response, delegates will be required to pay a non-refundable Conference invitation and reservation fee of N225, 000. Note that this fee is part of the total packageof N980, 000. Payment method will be sent once we receive the data page in step 1 above",
+        "On receiving the data pages and payment, we will send the visa information form to the delegates, this will enable us complete the visa processing and schedule biometric and submission appointment."
+      ],
+      "Important Visa Information": [
+        "UK visa application does not require interview",
+        "Visa information and service is only available to delegates who register for the conference on or before the registration deadline",
+        "Interested delegates will be required to appear in person for documents submission and bio metrics",
+        "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements"
+      ]
+    }
+  },
+  {
+    "id": 5,
     "title": "London Package",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Academic",

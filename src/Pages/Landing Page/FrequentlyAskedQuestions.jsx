@@ -19,10 +19,10 @@ const FrequentlyAskedQuestions = () => {
             Education Program
           </button>
           <button className="flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] border-r-2 border-borderColor">
-            Leisure
+            Leisure Trips
           </button>
           <button className="flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px]">
-            Trips
+            Booking
           </button>
         </main>
         <div className="mt-[50px] flex flex-col gap-[12px]">
