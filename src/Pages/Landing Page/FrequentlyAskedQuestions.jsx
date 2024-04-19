@@ -1,31 +1,7 @@
 import Accordion from "../../components/Accordion";
-// import { useEffect } from "react";
+import accordionData from "../../question.json";
 
 const FrequentlyAskedQuestions = () => {
-  
-  // useEffect(() => {
-  //   // Store the current scroll position in localStorage
-  //   const handleScroll = () => {
-  //     localStorage.setItem("scrollPosition", window.scrollY);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     // Remove the stored scroll position when the component unmounts
-  //     window.removeEventListener("scroll", handleScroll);
-  //     localStorage.removeItem("scrollPosition");
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-  //   // Scroll to the stored position when the component re-renders
-  //   const storedScrollPosition = localStorage.getItem("scrollPosition");
-  //   if (storedScrollPosition) {
-  //     window.scrollTo(0, parseInt(storedScrollPosition));
-  //   }
-  // }, []);
-
   return (
     <div className="bg-white w-full">
       <div className="container w-full pt-[44px] lg:pt-[65px] pb-[77px] lg:pb-[131px] flex flex-col justify-center items-center h-auto">
@@ -50,37 +26,19 @@ const FrequentlyAskedQuestions = () => {
           </button>
         </main>
         <div className="mt-[50px] flex flex-col gap-[12px]">
-          <Accordion
-            question="What destinations do you offer in your London Packages?"
-            answer="Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle."
-            number="01"
-            open="open"
-          />
-          <Accordion
-            question="Can I customize my Europe Package according to my preferences?"
-            answer="Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle."
-            number="02"
-          />
-          <Accordion
-            question="Tell me more about the Canada Packages you provide."
-            answer="Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle."
-            number="03"
-          />
-          <Accordion
-            question="What makes your Israel Pilgrimage unique?"
-            answer="Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle."
-            number="04"
-          />
-          <Accordion
-            question="Do you offer specialized USA Packages for different regions?"
-            answer="Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle."
-            number="05"
-          />
-          <Accordion
-            question="What attractions are included in your South Africa Packages?"
-            answer="Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle."
-            number="06"
-          />
+          {accordionData.map((data) => {
+            const { id, question, answer } = data;
+            const isOpen = id === "01";
+            return (
+              <Accordion
+                key={id}
+                question={question}
+                answer={answer}
+                number={id}
+                open={isOpen}
+              />
+            );
+          })}
         </div>
       </div>
     </div>

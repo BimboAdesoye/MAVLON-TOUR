@@ -8,6 +8,8 @@ const PackageCard = () => {
       {packagesData.map((packageData) => {
         return (
           <Link
+            onClick={() => console.log(packageData.id)}
+            to={`/single-package/${packageData.id}`}
             key={packageData.id}
             className="bg-white pt-[8px] pb-[24px] px-[8px] rounded-[8px] w-full lg:w-[390px]"
           >
