@@ -30,19 +30,31 @@ const Packages = () => {
             <div className=" rounded-[1000px] flex overflow-hidden p-[4px] bg-white">
               <button
                 onClick={() => filterItemsByTag(null)}
-                className="flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] bg-darkgreen rounded-[1000px] text-mediumgreen "
+                className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] ${
+                  selectedTag === null
+                    ? " bg-darkgreen rounded-[1000px] text-mediumgreen"
+                    : "bg-white text-darkgreen"
+                }`}
               >
                 All
               </button>
               <button
                 onClick={() => filterItemsByTag("Academic")}
-                className="flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] text-darkgreen font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px]"
+                className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] ${
+                  selectedTag === "Academic"
+                    ? "bg-darkgreen rounded-[100px] text-mediumgreen"
+                    : "bg-white text-darkgreen"
+                }`}
               >
                 Educational
               </button>
               <button
                 onClick={() => filterItemsByTag("Trip")}
-                className="flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] text-darkgreen font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px]"
+                className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] text-darkgreen font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] ${
+                  selectedTag === "Trip"
+                    ? "bg-darkgreen rounded-[100px] text-mediumgreen"
+                    : "bg-white text-darkgreen"
+                }`}
               >
                 Trips
               </button>
