@@ -1,9 +1,13 @@
 // import bgBubbles from "../assets/bg-bubbles.svg";
 import GetStartedBtn from "./Buttons/GetStartedBtn";
+import { Link } from "react-router-dom";
 
 const ViewPackages = () => {
   return (
-    <div className="h-auto w-full flex flex-col items-center pt-[109px] pb-[60px] lg:py[60px] gap-[24px] relative border-b-2 border-darkgreen">
+    <Link
+      to={"/programs"}
+      className="h-auto w-full flex flex-col items-center pt-[109px] pb-[60px] lg:py[60px] gap-[24px] relative border-b-2 border-darkgreen"
+    >
       <h3 className="text-darkgreen max-w-[589px] text-3.5xl lg:text-5.5xl font-semibold leading-[26.88px] lg:leading-[40.32px] mx-auto text-center z-1">
         Ready to engage <br />
         with our packages & trips?
@@ -18,7 +22,7 @@ const ViewPackages = () => {
         src={bgBubbles}
         alt=""
       /> */}
-    </div>
+    </Link>
   );
 };
 

@@ -24,13 +24,13 @@ const Footer = () => {
                 <Link>About Us</Link>
               </li>
               <li>
-                <Link>Packages</Link>
+                <Link to={"/programs"}>Packages</Link>
               </li>
               <li>
                 <Link>Booking</Link>
               </li>
               <li>
-                <Link>Contact Us</Link>
+                <Link to={"/contact-page"}>Contact Us</Link>
               </li>
             </ul>
             <ul className="w-1/2 lg:flex-1">

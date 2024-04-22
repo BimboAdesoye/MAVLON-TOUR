@@ -61,7 +61,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="text-darkgreen font-medium text-1xl leading-[24px]">
+            <Link to={'/contact-page'} className="text-darkgreen font-medium text-1xl leading-[24px]">
               Book Now
             </Link>
           </li>

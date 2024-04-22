@@ -36,20 +36,18 @@ const SinglePackageAccordion = ({ id, content }) => {
         </button>
       </div>
       <div
-        className={`w-full grid overflow-hidden transition-all h-auto duration-300 ease-in-out bg-white px-[20px] lg:px-[40px]  ${
+        className={`w-full grid overflow-hidden transition-all h-0 duration-300 ease-in-out bg-white ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
-        }`}
+        } ${accordionOpen ? "px-[20px] lg:px-[40px]" : ""}`}
       >
         <div className="text-black font-semibold text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden pb-[40px]">
           <p className="text-ash font-semibold text-lg lg:text-1xl pt-[26.5px] pb-[11.5px] border-b-2 border-borderColor">
             This package includes:
           </p>
           <div className="h-auto lg:h-[272px] flex flex-col flex-wrap">
-            <span
-              className="flex gap-[12px] py-[19px] lg:py-[32px] lg:pt-[15px] lg:pb-[23px] w-full lg:w-1/2 h-auto border-b-2 border-borderColor"
-            >
+            <span className="flex gap-[12px] py-[19px] lg:py-[32px] lg:pt-[15px] lg:pb-[23px] w-full lg:w-1/2 h-auto border-b-2 border-borderColor">
               <div className="bg-darkgreen font-bold text-sm w-[24px] h-[24px] py-[3px] px-[2px] flex items-center justify-center rounded-full  leading-[18.9px] text-white">
                 {id}
               </div>

@@ -1,9 +1,11 @@
 import CityBtn from "../../components/Buttons/CityBtn";
 import viewMoreArrow from "../../assets/view-more-arrow.svg";
+// import arrow from "../../assets/top-packages-arrow.svg";
 
 const TopPackages = () => {
   return (
     <section className="bg-darkgreen w-full h-auto pt-[74px] lg:pt-[63px] pb-[189.74px] lg:pb-0">
+          {/* <img src={arrow} alt="" /> */}
       <div className="container flex flex-col lg:flex-row gap-[54px] lg:gap-[122px]">
         <div className="lg:mt-[63px]">
           <h5 className="text-white lg:text-whiteAccent font-bold text-lg lg:text-2xl">

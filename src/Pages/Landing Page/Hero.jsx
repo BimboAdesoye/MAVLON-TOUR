@@ -1,4 +1,4 @@
-// import heroBg from "../../assets/hero-bg.svg";
+import heroBg from "../../assets/hero-bg.svg";
 // import union1 from "../../assets/Union1.svg";
 // import union2 from "../../assets/Union.svg";
 
@@ -17,15 +17,16 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex flex-col lg:flex-row gap-[15px] justify-center">
-            <button className="bg-white text-darkgreen rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold border-2 border-darkgreen m-0">
+            <button className="bg-white text-darkgreen rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold border-2 border-darkgreen m-0 text-lg lg:text-1xl">
               Book Now
             </button>
-            <button className="bg-darkgreen text-white rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold">
+            <button className="bg-darkgreen text-white rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold text-lg lg:text-1xl">
               Get Started
             </button>
           </div>
         </header>
         {/* <img className="union-1" src={union1} alt="" />
+          <img src={heroBg} alt="" />
         <img className="union-2" src={union2} alt="" /> */}
       </section>
     </main>

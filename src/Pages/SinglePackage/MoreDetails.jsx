@@ -29,7 +29,7 @@ const MoreDetails = () => {
           <span className="text-mediumgreen ml-2">before you make a call</span>
         </h2>
       </div>
-      <div className="container w-full mt-[40px] lg:mt-[64px] text-white flex flex-col gap-[8px]">
+      <div className="container w-full mt-[40px] lg:mt-[64px] text-white flex flex-col gap-[4px]">
         <SinglePackageAccordion id={id} content={content} />
         <SinglePackageAccordion />
         <SinglePackageAccordion />

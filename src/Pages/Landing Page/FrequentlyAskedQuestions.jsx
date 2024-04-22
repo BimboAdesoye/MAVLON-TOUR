@@ -1,7 +1,18 @@
 import Accordion from "../../components/Accordion";
 import accordionData from "../../question.json";
+import { useState } from "react";
 
 const FrequentlyAskedQuestions = () => {
+  const [selectedTag, setSelectedTag] = useState(null);
+
+  const filterItemsByTag = (tag) => {
+    setSelectedTag(tag);
+  };
+
+  const filteredItems = selectedTag
+    ? accordionData.filter((data) => data.tag === selectedTag)
+    : accordionData;
+
   return (
     <div className="bg-white w-full">
       <div className="container w-full pt-[44px] lg:pt-[65px] pb-[77px] lg:pb-[131px] flex flex-col justify-center items-center h-auto">
@@ -12,21 +23,49 @@ const FrequentlyAskedQuestions = () => {
           </p>
         </header>
         <main className="lg:min-w-[800px] lg:max-w-[800px] mt-[37px] border-2 border-borderColor rounded-[100px] flex overflow-hidden p-[4px]">
-          <button className="flex-1 py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] bg-darkgreen rounded-[100px] text-white">
+          <button
+            onClick={() => filterItemsByTag(null)}
+            className={`flex-1 py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px]  ${
+              selectedTag === null
+                ? "bg-darkgreen rounded-[100px] text-white"
+                : "bg-white text-grey"
+            }`}
+          >
             General
           </button>
-          <button className="flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] border-r-2 border-borderColor">
+          <button
+            onClick={() => filterItemsByTag("educational")}
+            className={`flex-1 py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] border-r-2 border-borderColor ${
+              selectedTag === "educational"
+                ? "bg-darkgreen text-white rounded-[100px]"
+                : "bg-white text-grey"
+            }`}
+          >
             Education Program
           </button>
-          <button className="flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] border-r-2 border-borderColor">
+          <button
+            onClick={() => filterItemsByTag("leisure")}
+            className={`flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] border-r-2 border-borderColor  ${
+              selectedTag === "leisure"
+                ? "bg-darkgreen text-white rounded-[100px]"
+                : "bg-white text-grey"
+            }`}
+          >
             Leisure Trips
           </button>
-          <button className="flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px]">
+          <button
+            onClick={() => filterItemsByTag("booking")}
+            className={`flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px]  ${
+              selectedTag === "booking"
+                ? "bg-darkgreen text-white rounded-[100px]"
+                : "bg-white text-grey"
+            }`}
+          >
             Booking
           </button>
         </main>
         <div className="mt-[50px] flex flex-col gap-[12px]">
-          {accordionData.map((data) => {
+          {filteredItems.map((data) => {
             const { id, question, answer } = data;
             const isOpen = id === "01";
             return (

@@ -45,7 +45,7 @@ const Testimonial = () => {
               testimonials[currentIndex].id
             }`}</p>
             <span>
-              <p className="font-bold text-white text-xl lg:text-3.5xl leading-[20px] lg:leading-[32px] lg:ml-0 pb-[40px] lg:pb-0 border-b-[1px] border-[#FFFFFF1A] lg:border-0">
+              <p className="quote font-bold text-white text-xl lg:text-3.5xl leading-[20px] lg:leading-[32px] lg:ml-0 pb-[40px] lg:pb-0 border-b-[1px] border-[#FFFFFF1A] lg:border-0">
                 {testimonials[currentIndex].statement}
               </p>
               <p className="font-bold text-mediumgreen text-xl lg:text-2xl leading-[20px] lg:leading-[24px] mt-[16px] lg:mt-[32px]">
