@@ -1,24 +1,56 @@
-@media screen and (max-width: 767px) {
-  nav ul li .body-two {
-    font-size: calc(30px + 5 * ((100vw - 320px) / 320));
+header nav ul.nav-list {
+  gap: 40px;
+}
+
+@media screen and (min-width: 767px) {
+  .toggle-btn {
+    display: none;
   }
 
-  header {
-    overflow: hidden;
-  }
-
-  header nav ul {
-    transition: 1s;
-    transform: translateX(-100vw);
-  }
-
-  header nav ul.responsive_nav {
-    transform: none;
+  .open-nav-btn {
+    display: none;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 899px) {
-  nav ul li .body-two {
-    font-size: calc(30px - 2 * ((100vw - 767px) / 133));
+.close-nav-btn {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  header nav .mobile-nav {
+    position: absolute;
+    background-color: darkgreen;
+    top: -100vh;
+    right: 0;
+    width: 100%;
+    height: auto;
+    transition: top 0.5s ease-in-out;
+  }
+
+  header nav ul {
+    padding-inline: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav ul li .list {
+    color: white;
+    font-size: 28px;
+  }
+
+  header nav.responsive .mobile-nav {
+    top: 0vh;
+  }
+
+  header nav .close-nav-btn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    transition: display 0.5s ease-out;
   }
 }

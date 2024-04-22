@@ -5,6 +5,7 @@
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Academic",
     "options": "1 Option",
+    "includes": "This package includes:",
     "image": "/london-img.jpg",
     "details": {
       "Available programs": [
@@ -70,11 +71,12 @@
   },
   {
     "id": 2,
-    "title": "London Package",
+    "title": "World Cup Deal",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Trip",
     "options": "1 Option",
-    "image": "/london-img.jpg",
+    "image": "/world-cup.jpg",
+    "includes": "Interested delegates should :",
     "details": {
       "Available programs": [
         {
@@ -126,11 +128,11 @@
   },
   {
     "id": 3,
-    "title": "London Package",
+    "title": "Europe Packages",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Trip",
     "options": "1 Option",
-    "image": "/london-img.jpg",
+    "image": "/europe-img.jpg",
     "details": {
       "Available programs": [
         {
@@ -182,11 +184,11 @@
   },
   {
     "id": 4,
-    "title": "London Package",
+    "title": "Canada Packages",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Academic",
     "options": "1 Option",
-    "image": "/london-img.jpg",
+    "image": "/canada-img.jpg",
     "details": {
       "Available programs": [
         {
@@ -238,11 +240,11 @@
   },
   {
     "id": 5,
-    "title": "London Package",
+    "title": "USA Package",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Academic",
     "options": "1 Option",
-    "image": "/london-img.jpg",
+    "image": "/usa-img.jpg",
     "details": {
       "Available programs": [
         {

@@ -2,7 +2,7 @@ import SinglePackageAccordion from "./SinglePackageAccordion";
 import packagesData from "../../data.json";
 
 const MoreDetails = () => {
-  //   const data = packagesData[0].details["Package Content"];
+  const data = packagesData[0].details["Package Content"];
   let details;
 
   packagesData.map((packageData) => {
@@ -30,11 +30,15 @@ const MoreDetails = () => {
         </h2>
       </div>
       <div className="container w-full mt-[40px] lg:mt-[64px] text-white flex flex-col gap-[4px]">
-        <SinglePackageAccordion id={id} content={content} />
+        {packagesData.map((packageData) => {
+          const { includes, id } = packageData;
+
+          return <SinglePackageAccordion key={id} title={includes} />;
+        })}
+        {/* <SinglePackageAccordion id={id} content={content} />
         <SinglePackageAccordion />
         <SinglePackageAccordion />
-        <SinglePackageAccordion />
-        <SinglePackageAccordion />
+        <SinglePackageAccordion /> */}
       </div>
     </section>
   );

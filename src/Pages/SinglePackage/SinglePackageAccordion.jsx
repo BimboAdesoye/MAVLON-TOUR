@@ -1,16 +1,16 @@
 import { useState } from "react";
 import accordionOpenImg from "../../assets/close-acc-image.svg";
 import accordionClosedImg from "../../assets/open-acc-image.svg";
-import packagesData from "../../data.json";
+// import packagesData from "../../data.json";
 
-const SinglePackageAccordion = ({ id, content }) => {
+const SinglePackageAccordion = ({ id, content, title }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   const handleAccordion = () => {
     setAccordionOpen(!accordionOpen);
   };
 
-  const data = packagesData[0].details["Package Content"];
+  // const data = packagesData[0].details["Package Content"];
 
   return (
     <div className="">
@@ -25,7 +25,7 @@ const SinglePackageAccordion = ({ id, content }) => {
             accordionOpen ? "text-darkgreen" : "text-white"
           }`}
         >
-          Package Content
+          {title}
         </p>
         <button onClick={handleAccordion}>
           {accordionOpen ? (
@@ -36,38 +36,16 @@ const SinglePackageAccordion = ({ id, content }) => {
         </button>
       </div>
       <div
-        className={`w-full grid overflow-hidden transition-all h-0 duration-300 ease-in-out bg-white ${
+        className={`w-full lg:px-[38px] pt-[26px] pb-[40px] grid overflow-hidden transition-all h-auto duration-300 ease-in-out bg-white ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
-        } ${accordionOpen ? "px-[20px] lg:px-[40px]" : ""}`}
+        } ${accordionOpen ? "pt-[13px] pb-[28px]" : ""}`}
       >
-        <div className="text-black font-semibold text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden pb-[40px]">
-          <p className="text-ash font-semibold text-lg lg:text-1xl pt-[26.5px] pb-[11.5px] border-b-2 border-borderColor">
-            This package includes:
-          </p>
-          <div className="h-auto lg:h-[272px] flex flex-col flex-wrap">
-            <span className="flex gap-[12px] py-[19px] lg:py-[32px] lg:pt-[15px] lg:pb-[23px] w-full lg:w-1/2 h-auto border-b-2 border-borderColor">
-              <div className="bg-darkgreen font-bold text-sm w-[24px] h-[24px] py-[3px] px-[2px] flex items-center justify-center rounded-full  leading-[18.9px] text-white">
-                {id}
-              </div>
-              <p>{content}</p>
-            </span>
-            {/* {data.map((datum) => {
-              const { id, content } = datum;
-              return (
-                <span
-                  key={id}
-                  className="flex gap-[12px] py-[19px] lg:py-[32px] lg:pt-[15px] lg:pb-[23px] w-full lg:w-1/2 h-auto border-b-2 border-borderColor"
-                >
-                  <div className="bg-darkgreen font-bold text-sm w-[24px] h-[24px] py-[3px] px-[2px] flex items-center justify-center rounded-full  leading-[18.9px] text-white">
-                    {id}
-                  </div>
-                  <p>{content}</p>
-                </span>
-              );
-            })} */}
-          </div>
+        <div className="text-black bg-white font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius
+          qui, vitae error hic veritatis atque maxime saepe consequatur
+          repellendus?
         </div>
       </div>
     </div>

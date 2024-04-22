@@ -12,7 +12,7 @@ const PackageCard = ({ id, image, tag, title, subject, options }) => {
       <div className="h-[200px] rounded-[8px] relative">
         <img
           src={image}
-          className="w-full h-full object-cover rounded-[6px]"
+          className="w-full h-full object-cover object-top rounded-[6px]"
           alt=""
         />
         <button className="absolute top-0 right-0 w-auto px-[10px] h-[36px] font-medium text-1xl leading-[20.46px] flex items-center justify-center bg-darkgreen rounded-bl-[12px] rounded-tr-[8px] text-white">
