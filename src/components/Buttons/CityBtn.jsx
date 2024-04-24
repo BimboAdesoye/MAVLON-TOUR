@@ -8,6 +8,7 @@ const CityBtn = ({ text }) => {
         className="view-more-btn-img w-[20px] md:w-[24px] md:h-[24px] lg:w-[28px] h-[20px] lg:h-[28px] "
         src={viewMoreArrow}
         alt=""
+        loading="lazy"
       />
     </button>
   );

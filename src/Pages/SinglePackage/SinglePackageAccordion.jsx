@@ -10,7 +10,9 @@ const SinglePackageAccordion = ({ id, content, title }) => {
     setAccordionOpen(!accordionOpen);
   };
 
-  // const data = packagesData[0].details["Package Content"];
+  console.log(content);
+
+  // const items = content.split(",");
 
   return (
     <div className="">
@@ -43,9 +45,17 @@ const SinglePackageAccordion = ({ id, content, title }) => {
         } ${accordionOpen ? "pt-[13px] pb-[28px]" : ""}`}
       >
         <div className="text-black bg-white font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius
-          qui, vitae error hic veritatis atque maxime saepe consequatur
-          repellendus?
+          {/* {Object.entries(content).map(([key, value]) => (
+            <div key={key}>
+              <h3>{key}</h3>
+              <ul>
+                {value.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))} */}
+          {content}
         </div>
       </div>
     </div>

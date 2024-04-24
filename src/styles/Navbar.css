@@ -25,6 +25,7 @@ header nav ul.nav-list {
     width: 100%;
     height: auto;
     transition: top 0.5s ease-in-out;
+    z-index: 1000;
   }
 
   header nav ul {

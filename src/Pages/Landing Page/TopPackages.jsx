@@ -8,9 +8,9 @@ const TopPackages = () => {
           {/* <img src={arrow} alt="" /> */}
       <div className="container flex flex-col lg:flex-row gap-[54px] lg:gap-[122px]">
         <div className="lg:mt-[63px]">
-          <h5 className="text-white lg:text-whiteAccent font-bold text-lg lg:text-2xl">
+          <h4 className="text-white lg:text-whiteAccent font-bold text-lg lg:text-2xl">
             TOP PACKAGES
-          </h5>
+          </h4>
           <p className="text-white lg:w-[399px] text-3.5xl lg:text-5.5xl font-semibold leading-[26.88px] lg:leading-[40.32px] mt-[24px]">
             Select from <span className="text-mediumgreen"> top package </span>
             collection to guarantee the best travelling experience.
@@ -39,6 +39,7 @@ const TopPackages = () => {
                 className="view-more-btn-img w-[20px] md:w-[24px] md:h-[24px] lg:w-[28px] h-[20px] lg:h-[28px]"
                 src={viewMoreArrow}
                 alt=""
+                loading="lazy"
               />
             </button>
           </div>

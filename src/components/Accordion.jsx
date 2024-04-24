@@ -36,9 +36,9 @@ const Accordion = ({ question, answer, number, open }) => {
         </button>
         <button onClick={handleAccordion}>
           {accordionOpen ? (
-            <img src={accordionOpenImg} alt="accordion-open-icon" />
+            <img src={accordionOpenImg} alt="accordion-open-icon" loading="lazy"/>
           ) : (
-            <img src={accordionClosedImg} alt="accordion-closed-icon" />
+            <img src={accordionClosedImg} alt="accordion-closed-icon" loading="lazy"/>
           )}
         </button>
       </div>

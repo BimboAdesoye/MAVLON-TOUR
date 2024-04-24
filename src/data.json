@@ -9,52 +9,19 @@
     "image": "/london-img.jpg",
     "details": {
       "Available programs": [
-        {
-          "id": 1,
-          "content": "International Conference on Education & Learning Technology"
-        },
-        {
-          "id": 2,
-          "content": "International Conference on Social Science & Humanities"
-        },
-        {
-          "id": 3,
-          "content": "International Conference on Business, Economics & Policy"
-        },
-        {
-          "id": 4,
-          "content": "International Conference on Science & Technology"
-        }
+        "International Conference on Education & Learning Technology",
+        "International Conference on Social Science & Humanities",
+        "International Conference on Business, Economics & Policy",
+        "International Conference on Science & Technology"
       ],
       "Package Content": [
-        {
-          "id": 1,
-          "content": "UK Business Visitor’s Visa processing"
-        },
-        {
-          "id": 2,
-          "content": "4 nights Hotel Accommodation"
-        },
-        {
-          "id": 3,
-          "content": "Breakfast Daily"
-        },
-        {
-          "id": 4,
-          "content": "Welcome reception"
-        },
-        {
-          "id": 5,
-          "content": "Printed Participation & presentation Certificate"
-        },
-        {
-          "id": 6,
-          "content": "Printed Proceedings"
-        },
-        {
-          "id": 7,
-          "content": "Flight tickets is not included in the package"
-        }
+        "UK Business Visitor’s Visa processing",
+        "4 nights Hotel Accommodation",
+        "Breakfast Daily",
+        "Welcome reception",
+        "Printed Participation & presentation Certificate",
+        "Printed Proceedings",
+        "Flight tickets is not included in the package"
       ],
       "How to Register": [
         "Respond to this email with a scanned copy of their passport data page, quoting the registration reference of the conference they are interested in.",

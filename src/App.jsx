@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route exact path="/" element={<LandingPage />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/single-package/:id" element={<SinglePackage />} />

@@ -1,5 +1,4 @@
 import MavlonLogo from "../assets/MavlonLogo.svg";
-// import searchIcon from "../assets/search-icon.svg";
 import mobileNavIcon from "../assets/open-nav-icon.svg";
 import { Link } from "react-router-dom";
 import { useRef, useState, useEffect } from "react";
@@ -36,7 +35,14 @@ const Navbar = () => {
         ref={navRef}
         className="container pt-[20.5px] pb-[15.5px] flex justify-between relative w-full"
       >
-        <img src={MavlonLogo} alt="Mavlon Logo" />
+        <Link to={"/"}>
+          <img
+            src={MavlonLogo}
+            alt="Mavlon Logo"
+            className="w-[66.01px] lg:w-[79.22px] h-[20px] lg:h-[24px]"
+            loading="lazy"
+          />
+        </Link>
         <div className="mobile-nav">
           <ul className="flex nav-list">
             <li className="text-darkgreen font-medium text-1xl leading-[24px]">
@@ -61,11 +67,11 @@ const Navbar = () => {
             </li>
           </ul>
           <button onClick={closeNav} className="close-nav-btn">
-            <img src={closeIcon} alt="" />
+            <img src={closeIcon} alt="" loading="lazy" />
           </button>
         </div>
         <button onClick={openNav} className="open-nav-btn">
-          <img src={mobileNavIcon} alt="toggle navbar icon" />
+          <img src={mobileNavIcon} alt="toggle navbar icon" loading="lazy"/>
         </button>
       </nav>
     </header>

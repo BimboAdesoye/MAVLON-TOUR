@@ -7,9 +7,9 @@ const Contact = () => {
   return (
     <section className="h-auto w-full bg-darkgreen contact-section">
       <div className="container py-[74px] lg:pt[73px] lg:pb-[103px]">
-        <h6 className="font-bold text-whiteAccent rotate-[1.28deg] max-w-[243px] mb-[16px] lg:mb-[24px]">
+        <h5 className="font-bold text-whiteAccent rotate-[1.28deg] max-w-[243px] mb-[16px] lg:mb-[24px]">
           FOR ALL BOOKINGS & INQUIRIES
-        </h6>
+        </h5>
         <div className="flex flex-col lg:flex-row gap-[77.56px] lg:gap-[106px]">
           <div>
             <h2 className="font-medium text-lightgreen text-3.5xl lg:text-5.5xl leading-[31.68px] lg:leading-[47.52px] mb-[32px] lg:mb-[56.56px] lg:max-w-[434px]">
@@ -21,12 +21,13 @@ const Contact = () => {
                   className="w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]"
                   src={mailIcon}
                   alt="mail-icon"
+                  loading="lazy"
                 />
 
                 <span className="pb-[24px] border-b-2 border-[#FFFFFF1A]">
-                  <h5 className="text-white font-bold lg:text-2xl text-xl">
+                  <h3 className="text-white font-bold lg:text-2xl text-xl">
                     Email
-                  </h5>
+                  </h3>
                   <p className="text-whiteAccent font-medium text-lg">
                     Our friendly team is here to help.
                   </p>
@@ -40,12 +41,13 @@ const Contact = () => {
                   className="w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]"
                   src={phoneIcon}
                   alt="mail-icon"
+                  loading="lazy"
                 />
 
                 <span className="pb-[24px] border-b-2 border-[#FFFFFF1A]">
-                  <h5 className="text-white font-bold lg:text-2xl text-xl">
+                  <h4 className="text-white font-bold lg:text-2xl text-xl">
                     Phone
-                  </h5>
+                  </h4>
                   <p className="text-whiteAccent font-medium text-lg">
                     Mon-Fri from 8am to 5pm.
                   </p>
@@ -59,6 +61,7 @@ const Contact = () => {
                   className="w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]"
                   src={locationIcon}
                   alt="mail-icon"
+                  loading="lazy" 
                 />
 
                 <span className="pb-[24px] border-b-2 border-[#FFFFFF1A]">

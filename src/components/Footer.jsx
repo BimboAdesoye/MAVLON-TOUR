@@ -12,6 +12,7 @@ const Footer = () => {
               className="w-[125.81px] h-[56px] lg:w-[179.73px] lg:h-[80px]"
               src={mavlonLogo}
               alt="mavlon-logo"
+              loading="lazy"
             />
           </div>
           <div className="w-full lg:w-1/2 h-auto lg:h-full flex flex-wrap lg:gap-[32px] footer-nav">
@@ -79,9 +80,9 @@ const Footer = () => {
         </div>
         <div className="mt-[48px] lg:mt-[64px] border-t-2 border-borderColor w-full h-[172px] lg:h-[90px] flex flex-col lg:flex-row justify-between lg:items-end">
           <span className="mt-[32px] lg:mt-0">
-            <h5 className="font-semibold lg:font-bold text-darkgreen text-lg lg:text-2xl">
+            <h4 className="font-semibold lg:font-bold text-darkgreen text-lg lg:text-2xl">
               Move faster with Mavlon Consults
-            </h5>
+            </h4>
             <p className="font-medium text-[#475467] text-lg lg:">
               Save countless hours of design and ship great looking designs
               faster.

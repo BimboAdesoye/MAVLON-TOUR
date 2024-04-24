@@ -9,26 +9,37 @@ import ViewPackages from "../../components/ViewPackages";
 import TopPackages from "./TopPackages";
 import Testimonial from "../../components/Testimonial";
 import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
+import { Helmet } from "react-helmet-async";
 
 const LandingPage = () => {
   return (
-    <main>
-      <header>
-        <Navbar />
-      </header>
+    <>
+      <Helmet>
+        <title>Landing Page</title>
+        <meta
+          name="description"
+          content="We guarantee the best packages for trips abroad and academic programs."
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <main>
-        <Hero />
-        <Milestones />
-        <AboutUs />
-        <OurPackages />
-        <TopPackages />
-        <Testimonial />
-        <FrequentlyAskedQuestions />
-        <Contact />
-        <ViewPackages />
+        <header>
+          <Navbar />
+        </header>
+        <main>
+          <Hero />
+          <Milestones />
+          <AboutUs />
+          <OurPackages />
+          <TopPackages />
+          <Testimonial />
+          <FrequentlyAskedQuestions />
+          <Contact />
+          <ViewPackages />
+        </main>
+        <Footer />
       </main>
-      <Footer />
-    </main>
+    </>
   );
 };
 

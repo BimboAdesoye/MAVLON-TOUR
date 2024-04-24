@@ -4,7 +4,7 @@ const OurPackages = () => {
   return (
     <section className="container w-full h-auto text-center pb-[14px] lg:pb-0">
       <div className="pt-[44px] lg:[pt-72px] max-w-[589px] mx-auto">
-        <h6 className="text-grey font-bold text-lg lg:text-xl">OUR PACKAGES</h6>
+        <h3 className="text-grey font-bold text-lg lg:text-xl">OUR PACKAGES</h3>
         <p className="text-darkgreen font-semibold text-3.5xl lg:text-5.5xl leading-[26.88px] lg:leading-[40.32px]">
           Gain access to the best opportunities in
         </p>
@@ -25,6 +25,7 @@ const OurPackages = () => {
               className="h-[32px] w-[32px] lg:h-[57px] lg:w-[57px] absolute top-3 right-3 lg:static"
               src={arrow}
               alt="arrow-icon"
+              loading="lazy"
             />
           </div>
         </div>
@@ -43,6 +44,7 @@ const OurPackages = () => {
               className="h-[32px] w-[32px] lg:h-[57px] lg:w-[57px] absolute top-3 right-3 lg:static"
               src={arrow}
               alt="arrow-icon"
+              loading="lazy"
             />
           </div>
         </div>

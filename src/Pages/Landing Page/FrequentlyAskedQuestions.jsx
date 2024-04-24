@@ -17,7 +17,7 @@ const FrequentlyAskedQuestions = () => {
     <div className="bg-white w-full">
       <div className="container w-full pt-[44px] lg:pt-[65px] pb-[77px] lg:pb-[131px] flex flex-col justify-center items-center h-auto">
         <header className="text-center">
-          <h6 className="font-bold text-grey text-lg lg:text-xl">FAQs</h6>
+          <h4 className="font-bold text-grey text-lg lg:text-xl">FAQs</h4>
           <p className="font-semibold text-darkgreen text-3.5xl lg:text-5.5xl leading-[26.88px] lg:leading-[40.32px]">
             All you need to know
           </p>

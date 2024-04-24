@@ -30,9 +30,9 @@ const Testimonial = () => {
     <div className="w-full h-auto">
       <div className="bg-white pt-[44px] lg:[pt-72px] pb-[59px] lg:pb-[48px] w-full h-auto text-center">
         <div className="container">
-          <h6 className="text-grey font-bold text-lg lg:text-xl">
+          <h5 className="text-grey font-bold text-lg lg:text-xl">
             TESTIMONIALS
-          </h6>
+          </h5>
           <h3 className="text-darkgreen max-w-[589px] text-3.5xl lg:text-5.5xl font-semibold leading-[26.88px] lg:leading-[40.32px] mx-auto text-center">
             Hear from some of our satisfied customers
           </h3>
@@ -56,7 +56,7 @@ const Testimonial = () => {
           </div>
           <span className="mt-[29px] lg:mt-[31px] w-full lg:max-w-[383px] mx-auto flex justify-between items-center">
             <button>
-              <img onClick={prevSlide} src={backwardArrow} alt="" />
+              <img onClick={prevSlide} src={backwardArrow} alt="" loading="lazy"/>
             </button>
             <span className="font-semibold text-xl lg:text-2xl leading-[18.6px] lg:leading-[22.32px] text-[#FFFFFF3D]">
               <span className="text-white">{`${numberFormat()}${
@@ -65,7 +65,7 @@ const Testimonial = () => {
               /{testimonials.length}
             </span>
             <button>
-              <img onClick={nextSlide} src={forwardArrow} alt="" />
+              <img onClick={nextSlide} src={forwardArrow} alt="" loading="lazy"/>
             </button>
           </span>
         </div>
