@@ -19,7 +19,7 @@ header nav ul.nav-list {
 @media screen and (max-width: 767px) {
   header nav .mobile-nav {
     position: absolute;
-    background-color: darkgreen;
+    background-color: #1A3D36;
     top: -100vh;
     right: 0;
     width: 100%;
