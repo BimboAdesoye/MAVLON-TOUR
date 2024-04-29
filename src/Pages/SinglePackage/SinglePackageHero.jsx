@@ -65,7 +65,7 @@ const SinglePackageHero = ({ scrollToComponent }) => {
           >
             More Details
           </button>
-          <button className="text-base lg:text-lg flex-1 px-[32px] py-[10px] rounded-[50px] text-white font-semibold bg-darkgreen">
+          <button className="text-base lg:text-lg flex-1 px-[32px] py-[10px] rounded-[50px] text-white font-semibold linear-gradient-bg">
             <Link to={"/contact-page"}>Book Now</Link>
           </button>
         </div>

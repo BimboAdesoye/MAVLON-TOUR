@@ -26,6 +26,8 @@ export default {
         btnColor2: "#FFFFFF4D",
         borderColor: "#DBDBDB",
         borderColor2: "#FFFFFF70",
+        backgroundColor:
+          "linear-gradient(359.21deg, #1E695A 38.12%, #7EFF9B 163.97%)",
         gradient: {
           color1: "#7EFF9B",
           color2: "#1E695A",

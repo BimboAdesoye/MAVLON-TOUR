@@ -27,7 +27,7 @@ const FrequentlyAskedQuestions = () => {
             onClick={() => filterItemsByTag(null)}
             className={`flex-1 py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px]  ${
               selectedTag === null
-                ? "bg-darkgreen rounded-[100px] text-white"
+                ? "linear-gradient-bg rounded-[100px] text-white"
                 : "bg-white text-grey"
             }`}
           >
@@ -37,7 +37,7 @@ const FrequentlyAskedQuestions = () => {
             onClick={() => filterItemsByTag("educational")}
             className={`flex-1 py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] border-r-2 border-borderColor ${
               selectedTag === "educational"
-                ? "bg-darkgreen text-white rounded-[100px]"
+                ? "linear-gradient-bg text-white rounded-[100px]"
                 : "bg-white text-grey"
             }`}
           >
@@ -47,7 +47,7 @@ const FrequentlyAskedQuestions = () => {
             onClick={() => filterItemsByTag("leisure")}
             className={`flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px] border-r-2 border-borderColor  ${
               selectedTag === "leisure"
-                ? "bg-darkgreen text-white rounded-[100px]"
+                ? "linear-gradient-bg text-white rounded-[100px]"
                 : "bg-white text-grey"
             }`}
           >
@@ -57,7 +57,7 @@ const FrequentlyAskedQuestions = () => {
             onClick={() => filterItemsByTag("booking")}
             className={`flex-1 py-[10px] px-[20px] text-grey font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[56px]  ${
               selectedTag === "booking"
-                ? "bg-darkgreen text-white rounded-[100px]"
+                ? "linear-gradient-bg text-white rounded-[100px]"
                 : "bg-white text-grey"
             }`}
           >

@@ -24,8 +24,7 @@ const Hero = ({ scrollToContact }) => {
             >
               Book Now
             </button>
-
-            <button className="bg-darkgreen text-white rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold text-lg lg:text-1xl">
+            <button className="linear-gradient-bg text-white rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold text-lg lg:text-1xl">
               <Link to={"/programs"}>Get Started</Link>
             </button>
           </div>

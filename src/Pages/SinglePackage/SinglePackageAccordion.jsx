@@ -62,3 +62,4 @@ const SinglePackageAccordion = ({ id, content, title }) => {
 };
 
 export default SinglePackageAccordion;
+
