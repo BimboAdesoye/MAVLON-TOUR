@@ -1,5 +1,5 @@
 import image1 from "../../assets/about-us-img-1.jpg";
-import image2 from "../../assets/about-us-img-2.svg";
+import image2 from "../../assets/canada-img.jpg";
 
 const OurGoals = () => {
   return (

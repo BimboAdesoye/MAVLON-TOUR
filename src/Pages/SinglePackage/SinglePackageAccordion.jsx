@@ -41,13 +41,13 @@ const SinglePackageAccordion = ({ id, content, title }) => {
             : "grid-rows-[0fr] opacity-0"
         } ${accordionOpen ? "pt-[13px] pb-[28px]" : ""}`}
       >
-        <div className="text-black bg-white font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
+        <div className="text-black bg-white  px-[20px] font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
           <p></p>
           {content.map((items, index) => {
             return (
-              <ul key={index} className="lg:max-h-[380px] ">
-                <li className="flex gap-[12px] h-[86px] w-auto items-center border-b-2 border-borderColor">
-                  <span className="bg-darkgreen text-white font-bold h-[30px] w-[30px] rounded-[100px] flex items-center justify-center ">
+              <ul key={index} className="lg:max-h-[380px]">
+                <li className="flex gap-[12px] py-[20px] w-auto items-center border-b-2 border-borderColor">
+                  <span className="bg-darkgreen text-white font-bold px-[10px] py-[10px] rounded-full flex items-center justify-center ">
                     {index + 1}
                   </span>
                   <span>{items}</span>

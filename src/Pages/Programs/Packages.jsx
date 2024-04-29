@@ -50,7 +50,7 @@ const Packages = () => {
                 </button>
                 <button
                   onClick={() => filterItemsByTag("Academic")}
-                  className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] transition-all duration-100 ease-in ${
+                  className={`flex-1 w-[100px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] transition-all duration-100 ease-in ${
                     selectedTag === "Academic"
                       ? "bg-darkgreen rounded-[100px] text-mediumgreen"
                       : "bg-white text-darkgreen"
