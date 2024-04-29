@@ -3,9 +3,12 @@ import phoneIcon from "../assets/phone-icon.svg";
 import locationIcon from "../assets/location-icon.svg";
 import SubmitBtn from "../components/Buttons/SubmitBtn";
 
-const Contact = () => {
+const Contact = ({ scrollRef }) => {
   return (
-    <section className="h-auto w-full bg-darkgreen contact-section">
+    <section
+      ref={scrollRef}
+      className="h-auto w-full bg-darkgreen contact-section"
+    >
       <div className="container py-[74px] lg:pt[73px] lg:pb-[103px]">
         <h5 className="font-bold text-whiteAccent rotate-[1.28deg] max-w-[243px] mb-[16px] lg:mb-[24px]">
           FOR ALL BOOKINGS & INQUIRIES
@@ -61,7 +64,7 @@ const Contact = () => {
                   className="w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]"
                   src={locationIcon}
                   alt="mail-icon"
-                  loading="lazy" 
+                  loading="lazy"
                 />
 
                 <span className="pb-[24px] border-b-2 border-[#FFFFFF1A]">
@@ -83,24 +86,30 @@ const Contact = () => {
               Or Fill & Submit a form to book now
             </h2>
 
-            <form action="" className=" lg:max-w-[610.5px]">
+            <form
+              action="https://formspree.io/f/xdoqyjrw"
+              method="POST"
+              className=" lg:max-w-[610.5px]"
+            >
               <div className="flex flex-col gap-[24px] lg:max-w-[495px]">
                 <span className="flex flex-col text-lg lg:text-1xl font-normal">
                   <input
-                    className="bg-inherit border-0 border-b-2 border-[#FFFFFF1A]"
+                    className="bg-inherit text-white border-0 border-b-2 border-[#FFFFFF1A]"
                     type="text"
                     name="name"
                     id="name"
                     placeholder="Your name"
+                    required
                   />
                 </span>
                 <span className="flex flex-col  text-lg lg:text-1xl font-normal">
                   <input
-                    className="bg-inherit border-0 border-b-2 border-[#FFFFFF1A]"
+                    className="bg-inherit text-white border-0 border-b-2 border-[#FFFFFF1A]"
                     type="email"
                     name="email"
                     id="email"
                     placeholder="Your email"
+                    required
                   />
                 </span>
                 <span className="flex flex-col text-[#FFFFFFDE] mb-[48px] focus:outline-none text-lg lg:text-1xl font-normal">
@@ -111,6 +120,7 @@ const Contact = () => {
                     cols="30"
                     rows="7"
                     placeholder="Message"
+                    required
                   ></textarea>
                 </span>
               </div>

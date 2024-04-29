@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import arrow from "../../assets/guide-back-arrow.svg";
 import { Link } from "react-router-dom";
 
-const SinglePackageHero = () => {
+const SinglePackageHero = ({ scrollToComponent }) => {
   const { id } = useParams();
 
   function findProductById(id) {
@@ -16,7 +16,7 @@ const SinglePackageHero = () => {
 
   const product = findProductById(id);
   const productDetails = product[0];
-  //   console.log(productDetails);
+    // console.log(product);
 
   return (
     <section className="lg:flex flex-row-reverse w-full h-auto pb-[37px] lg:pb-0">
@@ -59,7 +59,10 @@ const SinglePackageHero = () => {
           </span>
         </div>
         <div className="flex gap-[8px] w-full lg:max-w-[310px] mt-[77px] lg:mt-[90px]">
-          <button className="text-base lg:text-lg flex-1 px-[32px] py-[10px] rounded-[50px] text-darkgreen border-2 font-semibold border-darkgreen">
+          <button
+            onClick={scrollToComponent}
+            className="text-base lg:text-lg flex-1 px-[32px] py-[10px] rounded-[50px] text-darkgreen border-2 font-semibold border-darkgreen"
+          >
             More Details
           </button>
           <Link to={"/contact-page"}>

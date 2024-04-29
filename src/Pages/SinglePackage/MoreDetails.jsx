@@ -1,11 +1,32 @@
 import SinglePackageAccordion from "./SinglePackageAccordion";
 import packagesData from "../../data.json";
+import { useParams } from "react-router-dom";
 
-const MoreDetails = () => {
-  const details = packagesData[0].details;
+const MoreDetails = ({ scrollRef }) => {
+  const { id } = useParams();
+
+  function findProductById(id) {
+    const numericId = parseInt(id);
+    const singlePackage = packagesData.find(
+      (packageData) => packageData.id === numericId
+    );
+    return singlePackage;
+  }
+
+  const product = findProductById(id);
+
+  const details2 = product.details;
+
+  console.log(details2);
+
+  // const details = packagesData[0].details;
+  // console.log(details);
 
   return (
-    <section className="bg-darkgreen w-full h-auto pt-[74px] lg:pt-[80px] pb-[50px] lg:pb-[100px]">
+    <section
+      ref={scrollRef}
+      className="bg-darkgreen w-full h-auto pt-[74px] lg:pt-[80px] pb-[50px] lg:pb-[100px]"
+    >
       <div className="text-left lg:text-center w-full lg:max-w-[700px] mx-auto container">
         <h6 className="text-base lg:text-xl font-bold leading-[18.54px] lg:leading-[20.6px] text-white">
           MORE DETAILS
@@ -16,8 +37,11 @@ const MoreDetails = () => {
         </h2>
       </div>
       <div className="container w-full mt-[40px] lg:mt-[64px] text-white flex flex-col gap-[4px]">
-        {Object.entries(details).map(([key, value])=> {
-          return <SinglePackageAccordion key={key} title={key} content={value} />
+        {Object.entries(details2).map(([key, value]) => {
+          // const content = value.join(", ");
+          return (
+            <SinglePackageAccordion key={key} title={key} content={value} />
+          );
         })}
       </div>
     </section>

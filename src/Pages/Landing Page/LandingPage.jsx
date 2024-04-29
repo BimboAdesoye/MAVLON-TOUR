@@ -10,8 +10,14 @@ import TopPackages from "./TopPackages";
 import Testimonial from "../../components/Testimonial";
 import FrequentlyAskedQuestions from "./FrequentlyAskedQuestions";
 import { Helmet } from "react-helmet-async";
+import { useRef } from "react";
 
 const LandingPage = () => {
+  const scrollRef = useRef(null);
+
+  const scrollToContact = () => {
+    scrollRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <Helmet>
@@ -27,14 +33,14 @@ const LandingPage = () => {
           <Navbar />
         </header>
         <main>
-          <Hero />
+          <Hero scrollToContact={scrollToContact} />
           <Milestones />
           <AboutUs />
           <OurPackages />
           <TopPackages />
           <Testimonial />
           <FrequentlyAskedQuestions />
-          <Contact />
+          <Contact scrollRef={scrollRef} />
           <ViewPackages />
         </main>
         <Footer />

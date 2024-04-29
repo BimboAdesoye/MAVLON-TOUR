@@ -40,7 +40,7 @@ const Packages = () => {
               <div className=" rounded-[1000px] flex overflow-hidden p-[4px] bg-white">
                 <button
                   onClick={() => filterItemsByTag(null)}
-                  className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] ${
+                  className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] transition-all duration-300 ease-in-out ${
                     selectedTag === null
                       ? " bg-darkgreen rounded-[1000px] text-mediumgreen"
                       : "bg-white text-darkgreen"
@@ -50,7 +50,7 @@ const Packages = () => {
                 </button>
                 <button
                   onClick={() => filterItemsByTag("Academic")}
-                  className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] ${
+                  className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] transition-all duration-100 ease-in ${
                     selectedTag === "Academic"
                       ? "bg-darkgreen rounded-[100px] text-mediumgreen"
                       : "bg-white text-darkgreen"
@@ -60,7 +60,7 @@ const Packages = () => {
                 </button>
                 <button
                   onClick={() => filterItemsByTag("Trip")}
-                  className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] text-darkgreen font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] ${
+                  className={`flex-1 w-[74px] lg:w-[120px] py-[10px] px-[20px] text-darkgreen font-semibold text-sm lg:text-lg leading-[16.8px] lg:leading-[21.6px] h-[46px] lg:h-[52px] transition-all duration-300 ease-in-out ${
                     selectedTag === "Trip"
                       ? "bg-darkgreen rounded-[100px] text-mediumgreen"
                       : "bg-white text-darkgreen"

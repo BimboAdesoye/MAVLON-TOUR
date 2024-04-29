@@ -5,7 +5,7 @@
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Academic",
     "options": "1 Option",
-    "includes": "This package includes:",
+    "subheading": "This package includes:",
     "image": "/london-img.jpg",
     "details": {
       "Available programs": [
@@ -45,7 +45,7 @@
     "image": "/world-cup.jpg",
     "includes": "Interested delegates should :",
     "details": {
-      "Available programs": [
+      "Available materials": [
         {
           "id": 1,
           "title": "International Conference on Education & Learning Technology",

@@ -10,10 +10,7 @@ const SinglePackageAccordion = ({ id, content, title }) => {
     setAccordionOpen(!accordionOpen);
   };
 
-  console.log(content);
-
-  // const items = content.split(",");
-
+  // console.log(content)
   return (
     <div className="">
       <div
@@ -38,24 +35,26 @@ const SinglePackageAccordion = ({ id, content, title }) => {
         </button>
       </div>
       <div
-        className={`w-full lg:px-[38px] pt-[26px] pb-[40px] grid overflow-hidden transition-all h-auto duration-300 ease-in-out bg-white ${
+        className={`w-full lg:px-[38px] grid overflow-hidden h-auto transition-all  duration-300 ease-in-out bg-white ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
         } ${accordionOpen ? "pt-[13px] pb-[28px]" : ""}`}
       >
         <div className="text-black bg-white font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
-          {/* {Object.entries(content).map(([key, value]) => (
-            <div key={key}>
-              <h3>{key}</h3>
-              <ul>
-                {value.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
+          <p></p>
+          {content.map((items, index) => {
+            return (
+              <ul key={index} className="lg:max-h-[380px] ">
+                <li className="flex gap-[12px] h-[86px] w-auto items-center border-b-2 border-borderColor">
+                  <span className="bg-darkgreen text-white font-bold h-[30px] w-[30px] rounded-[100px] flex items-center justify-center ">
+                    {index + 1}
+                  </span>
+                  <span>{items}</span>
+                </li>
               </ul>
-            </div>
-          ))} */}
-          {content}
+            );
+          })}
         </div>
       </div>
     </div>
