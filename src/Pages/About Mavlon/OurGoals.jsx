@@ -1,4 +1,4 @@
-import image1 from "../../assets/about-us-img-1.svg";
+import image1 from "../../assets/about-us-img-1.jpg";
 import image2 from "../../assets/about-us-img-2.svg";
 
 const OurGoals = () => {
@@ -20,10 +20,10 @@ const OurGoals = () => {
           </p>
         </div>
         <div className="mt-[32px] lg:mt-[43px] mb-[19px] lg:mb-0 flex flex-col lg:flex-row gap-[16px] lg:gap-[24px]">
-          <span className="rounded-[9.55px] lg:rounded-[16px] overflow-hidden lg:rounded-br-none lg:rounded-bl-none">
+          <span className="rounded-[9.55px] lg:rounded-[16px] overflow-hidden lg:rounded-br-none lg:rounded-bl-none lg:flex-1 h-[220px] md:h-[320px]">
             <img className="w-full h-full object-cover" src={image1} alt="" />
           </span>
-          <span className="rounded-[9.55px] lg:rounded-[16px] overflow-hidden lg:rounded-br-none lg:rounded-bl-none">
+          <span className="rounded-[9.55px] lg:rounded-[16px] overflow-hidden lg:rounded-br-none lg:rounded-bl-none lg:flex-1 h-[220px] md:h-[320px]">
             <img className="w-full h-full object-cover" src={image2} alt="" />
           </span>
         </div>
