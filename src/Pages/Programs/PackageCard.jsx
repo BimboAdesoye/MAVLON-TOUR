@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const PackageCard = ({ id, image, tag, title, subject, options }) => {
   return (
     <Link
-      onClick={() => console.log(id)}
+      // onClick={() => console.log(id)}
       to={`/single-package/${id}`}
       key={id}
       className="bg-white pt-[8px] pb-[24px] px-[8px] rounded-[8px] w-full lg:w-[390px]"

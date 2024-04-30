@@ -45,31 +45,11 @@
     "image": "/world-cup.jpg",
     "includes": "Interested delegates should :",
     "details": {
-      "Available materials": [
-        {
-          "id": 1,
-          "title": "International Conference on Education & Learning Technology",
-          "ref": "Registration reference: UK2401",
-          "date": "22nd-23rd April, 2024"
-        },
-        {
-          "id": 2,
-          "title": "International Conference on Social Science & Humanities",
-          "ref": "Registration reference: UK2402",
-          "date": "23rd-24th April, 2024"
-        },
-        {
-          "id": 3,
-          "title": "International Conference on Business, Economics & Policy",
-          "ref": "Registration reference: UK2403",
-          "date": "24th-25th April, 2024"
-        },
-        {
-          "id": 4,
-          "title": "International Conference on Science & Technology",
-          "ref": "Registration reference: UK2404",
-          "date": "25th-23th April, 2024."
-        }
+      "Available programs2": [
+        "International Conference on Education & Learning Technology",
+        "International Conference on Social Science & Humanities",
+        "International Conference on Business, Economics & Policy",
+        "International Conference on Science & Technology"
       ],
       "Package Content": [
         "UK Business Visitor’s Visa processing",
@@ -101,31 +81,11 @@
     "options": "1 Option",
     "image": "/europe-img.jpg",
     "details": {
-      "Available programs": [
-        {
-          "id": 1,
-          "title": "International Conference on Education & Learning Technology",
-          "ref": "Registration reference: UK2401",
-          "date": "22nd-23rd April, 2024"
-        },
-        {
-          "id": 2,
-          "title": "International Conference on Social Science & Humanities",
-          "ref": "Registration reference: UK2402",
-          "date": "23rd-24th April, 2024"
-        },
-        {
-          "id": 3,
-          "title": "International Conference on Business, Economics & Policy",
-          "ref": "Registration reference: UK2403",
-          "date": "24th-25th April, 2024"
-        },
-        {
-          "id": 4,
-          "title": "International Conference on Science & Technology",
-          "ref": "Registration reference: UK2404",
-          "date": "25th-23th April, 2024."
-        }
+      "Available programs3": [
+        "International Conference on Education & Learning Technology",
+        "International Conference on Social Science & Humanities",
+        "International Conference on Business, Economics & Policy",
+        "International Conference on Science & Technology"
       ],
       "Package Content": [
         "UK Business Visitor’s Visa processing",
@@ -157,31 +117,11 @@
     "options": "1 Option",
     "image": "/canada-img.jpg",
     "details": {
-      "Available programs": [
-        {
-          "id": 1,
-          "title": "International Conference on Education & Learning Technology",
-          "ref": "Registration reference: UK2401",
-          "date": "22nd-23rd April, 2024"
-        },
-        {
-          "id": 2,
-          "title": "International Conference on Social Science & Humanities",
-          "ref": "Registration reference: UK2402",
-          "date": "23rd-24th April, 2024"
-        },
-        {
-          "id": 3,
-          "title": "International Conference on Business, Economics & Policy",
-          "ref": "Registration reference: UK2403",
-          "date": "24th-25th April, 2024"
-        },
-        {
-          "id": 4,
-          "title": "International Conference on Science & Technology",
-          "ref": "Registration reference: UK2404",
-          "date": "25th-23th April, 2024."
-        }
+      "Available programs4": [
+        "International Conference on Education & Learning Technology",
+        "International Conference on Social Science & Humanities",
+        "International Conference on Business, Economics & Policy",
+        "International Conference on Science & Technology"
       ],
       "Package Content": [
         "UK Business Visitor’s Visa processing",
@@ -213,31 +153,11 @@
     "options": "1 Option",
     "image": "/usa-img.jpg",
     "details": {
-      "Available programs": [
-        {
-          "id": 1,
-          "title": "International Conference on Education & Learning Technology",
-          "ref": "Registration reference: UK2401",
-          "date": "22nd-23rd April, 2024"
-        },
-        {
-          "id": 2,
-          "title": "International Conference on Social Science & Humanities",
-          "ref": "Registration reference: UK2402",
-          "date": "23rd-24th April, 2024"
-        },
-        {
-          "id": 3,
-          "title": "International Conference on Business, Economics & Policy",
-          "ref": "Registration reference: UK2403",
-          "date": "24th-25th April, 2024"
-        },
-        {
-          "id": 4,
-          "title": "International Conference on Science & Technology",
-          "ref": "Registration reference: UK2404",
-          "date": "25th-23th April, 2024."
-        }
+      "Available programs5": [
+        "International Conference on Education & Learning Technology",
+        "International Conference on Social Science & Humanities",
+        "International Conference on Business, Economics & Policy",
+        "International Conference on Science & Technology"
       ],
       "Package Content": [
         "UK Business Visitor’s Visa processing",

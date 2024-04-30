@@ -15,9 +15,11 @@ const MoreDetails = ({ scrollRef }) => {
 
   const product = findProductById(id);
 
+  // console.log(id)
+
   const details2 = product.details;
 
-  console.log(details2);
+  // console.log(details2);
 
   // const details = packagesData[0].details;
   // console.log(details);
@@ -38,7 +40,6 @@ const MoreDetails = ({ scrollRef }) => {
       </div>
       <div className="container w-full mt-[40px] lg:mt-[64px] text-white flex flex-col gap-[4px]">
         {Object.entries(details2).map(([key, value]) => {
-          // const content = value.join(", ");
           return (
             <SinglePackageAccordion key={key} title={key} content={value} />
           );

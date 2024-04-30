@@ -189,3 +189,9 @@ option {
 .linear-gradient-bg {
   background: linear-gradient(359.21deg, #1e695a 38.12%, #7eff9b 163.97%);
 }
+
+.top-packages-bg {
+  background: linear-gradient(0deg, #7eff9b, #7eff9b),
+    linear-gradient(359.19deg, #1e695a 38.98%, #7eff9b 167.66%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}

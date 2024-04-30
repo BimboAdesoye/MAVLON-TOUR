@@ -1,11 +1,10 @@
 import CityBtn from "../../components/Buttons/CityBtn";
 import viewMoreArrow from "../../assets/view-more-arrow.svg";
-// import arrow from "../../assets/top-packages-arrow.svg";
+import arrow from "../../assets/top-packages-arrow.svg";
 
 const TopPackages = () => {
   return (
-    <section className="bg-darkgreen w-full h-auto pt-[74px] lg:pt-[63px] pb-[189.74px] lg:pb-0">
-          {/* <img src={arrow} alt="" /> */}
+    <section className="top-packages-bg w-full h-auto pt-[74px] lg:pt-[63px] pb-[189.74px] lg:pb-0">
       <div className="container flex flex-col lg:flex-row gap-[54px] lg:gap-[122px]">
         <div className="lg:mt-[63px]">
           <h4 className="text-white lg:text-whiteAccent font-bold text-lg lg:text-2xl">
@@ -15,6 +14,7 @@ const TopPackages = () => {
             Select from <span className="text-mediumgreen"> top package </span>
             collection to guarantee the best travelling experience.
           </p>
+          <img src={arrow} alt="" />
         </div>
         <div className="top-packages w-full h-auto">
           <div className="h-[140px] lg:h-[264.33px] w-full rounded-[16.34px] top-package-1 flex flex-col border-2 lg:border-4 border-borderColor2 overflow-hidden">

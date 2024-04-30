@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import accordionOpenImg from "../assets/accordion-open-icon.svg";
 import accordionClosedImg from "../assets/accordion-closed-icon.svg";
 
-const Accordion = ({ question, answer, number, open }) => {
+const Accordion = ({ question, answer, index, open }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   const handleAccordion = () => {
@@ -23,7 +23,7 @@ const Accordion = ({ question, answer, number, open }) => {
         }`}
       >
         <p className="hidden lg:block font-bold text-darkgreen text-2xl">
-          {number}
+          {`0${index + 1}`}
         </p>
         <button onClick={handleAccordion} className="w-full text-left">
           <p
@@ -36,9 +36,17 @@ const Accordion = ({ question, answer, number, open }) => {
         </button>
         <button onClick={handleAccordion}>
           {accordionOpen ? (
-            <img src={accordionOpenImg} alt="accordion-open-icon" loading="lazy"/>
+            <img
+              src={accordionOpenImg}
+              alt="accordion-open-icon"
+              loading="lazy"
+            />
           ) : (
-            <img src={accordionClosedImg} alt="accordion-closed-icon" loading="lazy"/>
+            <img
+              src={accordionClosedImg}
+              alt="accordion-closed-icon"
+              loading="lazy"
+            />
           )}
         </button>
       </div>

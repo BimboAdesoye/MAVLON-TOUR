@@ -16,7 +16,6 @@ const SinglePackageHero = ({ scrollToComponent }) => {
 
   const product = findProductById(id);
   const productDetails = product[0];
-  // console.log(product);
 
   return (
     <section className="lg:flex flex-row-reverse w-full h-auto pb-[37px] lg:pb-0">

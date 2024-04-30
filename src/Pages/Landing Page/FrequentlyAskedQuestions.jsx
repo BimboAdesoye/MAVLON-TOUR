@@ -65,15 +65,15 @@ const FrequentlyAskedQuestions = () => {
           </button>
         </main>
         <div className="mt-[50px] flex flex-col gap-[12px]">
-          {filteredItems.map((data) => {
+          {filteredItems.map((data, index) => {
             const { id, question, answer } = data;
-            const isOpen = id === "01";
+            const isOpen = index === 0;
             return (
               <Accordion
                 key={id}
                 question={question}
                 answer={answer}
-                number={id}
+                index={index}
                 open={isOpen}
               />
             );

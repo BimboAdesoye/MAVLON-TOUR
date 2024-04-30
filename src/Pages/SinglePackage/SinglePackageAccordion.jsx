@@ -41,7 +41,7 @@ const SinglePackageAccordion = ({ id, content, title }) => {
             : "grid-rows-[0fr] opacity-0"
         } ${accordionOpen ? "pt-[13px] pb-[28px]" : ""}`}
       >
-        <div className="text-black bg-white  px-[20px] font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
+        <div className="text-black bg-white px-[20px] font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
           <p></p>
           {content.map((items, index) => {
             return (
