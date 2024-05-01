@@ -21,7 +21,7 @@ const SinglePackageHero = ({ scrollToComponent }) => {
     <section className="lg:flex flex-row-reverse w-full h-auto pb-[37px] lg:pb-0">
       <div className="h-[260px] lg:h-[670px] lg:w-[836px] w-full">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
           src={productDetails.image}
           alt=""
         />

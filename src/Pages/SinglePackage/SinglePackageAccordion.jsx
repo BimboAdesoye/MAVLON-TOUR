@@ -3,14 +3,13 @@ import accordionOpenImg from "../../assets/close-acc-image.svg";
 import accordionClosedImg from "../../assets/open-acc-image.svg";
 // import packagesData from "../../data.json";
 
-const SinglePackageAccordion = ({ id, content, title }) => {
+const SinglePackageAccordion = ({ id, content, title, subheading }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   const handleAccordion = () => {
     setAccordionOpen(!accordionOpen);
   };
 
-  // console.log(content)
   return (
     <div className="">
       <div
@@ -42,7 +41,9 @@ const SinglePackageAccordion = ({ id, content, title }) => {
         } ${accordionOpen ? "pt-[13px] pb-[28px]" : ""}`}
       >
         <div className="text-black bg-white px-[20px] font-medium text-lg lg:text-1xl leading-[21.6px] lg:leading-[22.66px] overflow-hidden">
-          <p></p>
+          {/* <p className="font-semibold text-ash text-lg lg:text-1xl leading-[24.3px] lg:leading-[29.7px] border-b-2 h-[40px] lg:h-[58px] border-borderColor flex items-center">
+            {subheading}
+          </p> */}
           {content.map((items, index) => {
             return (
               <ul key={index} className="lg:max-h-[380px]">
@@ -62,4 +63,3 @@ const SinglePackageAccordion = ({ id, content, title }) => {
 };
 
 export default SinglePackageAccordion;
-

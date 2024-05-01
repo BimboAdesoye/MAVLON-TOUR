@@ -30,7 +30,7 @@ const Navbar = () => {
   }
 
   return (
-    <header className="border-b border-darkgreen">
+    <header className="">
       <nav
         ref={navRef}
         className="container pt-[20.5px] pb-[15.5px] flex justify-between relative w-full"

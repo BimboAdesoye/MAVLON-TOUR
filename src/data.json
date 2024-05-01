@@ -5,8 +5,8 @@
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Academic",
     "options": "1 Option",
-    "subheading": "This package includes:",
     "image": "/london-img.jpg",
+    "subheading": "Below are all the available programs:",
     "details": {
       "Available programs": [
         "International Conference on Education & Learning Technology",
@@ -28,139 +28,129 @@
         "In response, delegates will be required to pay a non-refundable Conference invitation and reservation fee of N225, 000. Note that this fee is part of the total packageof N980, 000. Payment method will be sent once we receive the data page in step 1 above",
         "On receiving the data pages and payment, we will send the visa information form to the delegates, this will enable us complete the visa processing and schedule biometric and submission appointment."
       ],
+      "VISA Types": ["2 Years VISA", "5 Years VISA", "10 Years VISA"],
       "Important Visa Information": [
         "UK visa application does not require interview",
         "Visa information and service is only available to delegates who register for the conference on or before the registration deadline",
         "Interested delegates will be required to appear in person for documents submission and bio metrics",
-        "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements"
+        "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements",
+        "Prior Travel experience is an added advantage."
       ]
     }
   },
   {
     "id": 2,
-    "title": "World Cup Deal",
-    "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
+    "title": "Europe Packages",
+    "subject": "We are all set for Europe! Are you?. If not, grab this amazing last minute offer to visit Europe",
     "tag": "Trip",
     "options": "1 Option",
-    "image": "/world-cup.jpg",
-    "includes": "Interested delegates should :",
+    "image": "/europe-img.jpg",
     "details": {
-      "Available programs2": [
-        "International Conference on Education & Learning Technology",
-        "International Conference on Social Science & Humanities",
-        "International Conference on Business, Economics & Policy",
-        "International Conference on Science & Technology"
+      "Available programs": [
+        "International Conference Package in Barcelona",
+        "Visit Paris in the Easter of 2024",
+        "The International Conference on Business, Economics, Law, Language and Psychology (Reference Code: ICBELLP)",
+        "International Conference on Science and Technology Research (Registration reference: ICSTR)",
+        "International Conference on Research in Social Science and Humanities (Registration reference: ICSSH) "
       ],
       "Package Content": [
-        "UK Business Visitor’s Visa processing",
-        "4 nights Hotel Accommodation",
-        "Breakfast Daily",
-        "Welcome reception",
-        "Printed Participation & presentation Certificate",
-        "Printed Proceedings",
-        "Flight tickets is not included in the package"
+        "6 nights' accommodation in Paris",
+        "Paris Disneyland tickets (for families with kids only)",
+        "Paris City Tour (For All)",
+        "Eiffel Tower Tickets OR Louvre Museum tickets ( For solo travelers or Adults traveling without kids)",
+        "Breakfast daily",
+        "Schengen Travel insurance",
+        "Visa submission appointment booking",
+        "Schengen Visitor's Visa processing throughFrance(minimum of 1 month, maximum 3 years, depending on your travel experience)",
+        "Flight Tickets are not included: Flight tickets can be requested after the Visa has been approved, rate will depend on airline choice and class of flight. Flight ticket rates are NOT included in the above quotes"
       ],
       "How to Register": [
         "Respond to this email with a scanned copy of their passport data page, quoting the registration reference of the conference they are interested in.",
         "In response, delegates will be required to pay a non-refundable Conference invitation and reservation fee of N225, 000. Note that this fee is part of the total packageof N980, 000. Payment method will be sent once we receive the data page in step 1 above",
         "On receiving the data pages and payment, we will send the visa information form to the delegates, this will enable us complete the visa processing and schedule biometric and submission appointment."
       ],
+      "VISA Types": ["2 Years VISA", "5 Years VISA", "10 Years VISA"],
       "Important Visa Information": [
-        "UK visa application does not require interview",
-        "Visa information and service is only available to delegates who register for the conference on or before the registration deadline",
-        "Interested delegates will be required to appear in person for documents submission and bio metrics",
-        "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements"
+        "Schengen Visitor's Visa processing through France (minimum of 1 month, maximum 3 years, depending on your travel experience)",
+        "France visa application does not require interview.",
+        "Interested applicants will be required to appear in person for documents submission and biometrics. Documents required are proof of registered business or occupation and Proof of funds in terms of Bank Statements. Prior Travel experience is an added advantage.",
+        "Visa and biometric fee will be collected directly by the embassy representatives on the day of the biometrics data capture. Note that this fee is not part of the total package fee quoted above. All visa fees are non-refundable.",
+        "Duration of Visa is a minimum of 1 month and up to 3 years for frequent travelers.",
+        "Spain visa application does not require interview.",
+        "Visa information and service is only available to delegates who register for the conference on or before the registration deadline."
+      ],
+      "Instructions": [
+        "You can call or whatsapp Stella on 08100380989 Fola on 08103051178, Tayo on 08139686452, Oluwakemi on 07061047789 (9am to 5pm weekdays) if you have further questions"
       ]
     }
   },
   {
     "id": 3,
-    "title": "Europe Packages",
-    "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
-    "tag": "Trip",
+    "title": "Canada Packages",
+    "subject": "We are all set for Canada! Are you?. If not, grab this amazing last minute offer to visit Canada",
+    "tag": "Academic",
     "options": "1 Option",
-    "image": "/europe-img.jpg",
+    "image": "/canada-img.jpg",
     "details": {
-      "Available programs3": [
-        "International Conference on Education & Learning Technology",
-        "International Conference on Social Science & Humanities",
-        "International Conference on Business, Economics & Policy",
-        "International Conference on Science & Technology"
+      "Available programs": [
+        "Canada Business Expo-September",
+        "Ottawa, Ontario Job Fair",
+        "Toronto Canada Multidisciplinary Conferences",
+        "International Conference on Recent Advances in Medical and Health Science(Reference Code ICAMS2024)",
+        "International Conference on Management and Information Technology(Reference code: ICMIT2024)",
+        "International Conference on Engineering, Technology and Innovations (Reference Code: ICETI2024)",
+        "International Conference on Science, Social Science and Economics(Reference Code: ICSSE2024)",
+        "International Conference on Artificial Intelligence and Soft Computing (Reference Code: ICAIS2024)"
       ],
       "Package Content": [
-        "UK Business Visitor’s Visa processing",
-        "4 nights Hotel Accommodation",
-        "Breakfast Daily",
-        "Welcome reception",
-        "Printed Participation & presentation Certificate",
-        "Printed Proceedings",
-        "Flight tickets is not included in the package"
+        "6 nights, 7 days Accommodation",
+        "Breakfast daily",
+        "Canada Visitors Visa application and logistics",
+        "Niagara Falls Tour from Toronto with hotel pick up",
+        "Toronto City tours tickets",
+        "Flight Tickets: Flight tickets can be requested after the Visa has been approved, rate will depend on airline choice and class of flight. Flight ticket rates are NOT included in the above quotes"
       ],
       "How to Register": [
-        "Respond to this email with a scanned copy of their passport data page, quoting the registration reference of the conference they are interested in.",
-        "In response, delegates will be required to pay a non-refundable Conference invitation and reservation fee of N225, 000. Note that this fee is part of the total packageof N980, 000. Payment method will be sent once we receive the data page in step 1 above",
-        "On receiving the data pages and payment, we will send the visa information form to the delegates, this will enable us complete the visa processing and schedule biometric and submission appointment."
+        "Conference registration fee shall be deducted from the total package cost, the balance is what is payable after Visa has been approved.",
+        "You can call or chatTayo on 08139686452, Fola on 08103051178, Oluwakemi on 07061047789, Stella on 08100380989(9am to 5pm weekdays) if you have further questions"
       ],
       "Important Visa Information": [
-        "UK visa application does not require interview",
+        "Visa processing services will be provided after the conference registration has been completed.",
         "Visa information and service is only available to delegates who register for the conference on or before the registration deadline",
-        "Interested delegates will be required to appear in person for documents submission and bio metrics",
-        "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements"
+        "All visa applications will be submitted online. Digital copies of required documents will be requested later with the online bio metrics data/visa fee of 140USD. If you have done data capture within the past 10 years, the fee is 100USD. Note that this fee is not included in the package.",
+        "Applicants are now given a period of 30 days to complete their bio metric data capture.",
+        "Duration of Visa depends on the expiry date of the passport and the maximum duration is 10 years."
+      ],
+      "Instructions": [
+        "Data page of international passport, with the reference code of the applicable conference.",
+        "Name and address of their company or organization with phone numbers of delegates.",
+        "The Conference acceptance letters and Registration attract acceptance fees",
+        "Conference registration fee and reservation fee is NOT refundable under any circumstances.",
+        "In case of Visa refusal, processing delays or for other reasons, delegates have the option of attending the conference online and receive their electronic certificates of attended with the paper presentations.",
+        "Conference registration fee payment details will only be provided to interested delegates, who have provided the other registration documents as stated above.",
+        "Kindly note that applications will be treated on first to come, first served basis."
+      ],
+      "Special Info": [
+        "Conference registration fee and reservation fee is NOT refundable under any circumstances.",
+        "Kindly note that applications will be treated on first to come, first served basis.",
+        "Visa success rate for 2023 has increased by over 100% in comparison to the previous year.",
+        "You can call or chatTayo on 08139686452, Fola on 08103051178, Oluwakemi on 07061047789, Stella on 08100380989(9am to 5pm weekdays) if you have further questions"
       ]
     }
   },
   {
     "id": 4,
-    "title": "Canada Packages",
-    "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
-    "tag": "Academic",
-    "options": "1 Option",
-    "image": "/canada-img.jpg",
-    "details": {
-      "Available programs4": [
-        "International Conference on Education & Learning Technology",
-        "International Conference on Social Science & Humanities",
-        "International Conference on Business, Economics & Policy",
-        "International Conference on Science & Technology"
-      ],
-      "Package Content": [
-        "UK Business Visitor’s Visa processing",
-        "4 nights Hotel Accommodation",
-        "Breakfast Daily",
-        "Welcome reception",
-        "Printed Participation & presentation Certificate",
-        "Printed Proceedings",
-        "Flight tickets is not included in the package"
-      ],
-      "How to Register": [
-        "Respond to this email with a scanned copy of their passport data page, quoting the registration reference of the conference they are interested in.",
-        "In response, delegates will be required to pay a non-refundable Conference invitation and reservation fee of N225, 000. Note that this fee is part of the total packageof N980, 000. Payment method will be sent once we receive the data page in step 1 above",
-        "On receiving the data pages and payment, we will send the visa information form to the delegates, this will enable us complete the visa processing and schedule biometric and submission appointment."
-      ],
-      "Important Visa Information": [
-        "UK visa application does not require interview",
-        "Visa information and service is only available to delegates who register for the conference on or before the registration deadline",
-        "Interested delegates will be required to appear in person for documents submission and bio metrics",
-        "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements"
-      ]
-    }
-  },
-  {
-    "id": 5,
     "title": "USA Package",
     "subject": "We are all set for London! Are you?. If not, grab this amazing last minute offer to visit London",
     "tag": "Academic",
     "options": "1 Option",
     "image": "/usa-img.jpg",
     "details": {
-      "Available programs5": [
-        "International Conference on Education & Learning Technology",
-        "International Conference on Social Science & Humanities",
-        "International Conference on Business, Economics & Policy",
-        "International Conference on Science & Technology"
+      "Available programs": [
+        "The September summit of the Washington International Strategic Leadership Conference"
       ],
       "Package Content": [
-        "UK Business Visitor’s Visa processing",
+        "US Business Visitor’s Visa processing",
         "4 nights Hotel Accommodation",
         "Breakfast Daily",
         "Welcome reception",
@@ -169,15 +159,92 @@
         "Flight tickets is not included in the package"
       ],
       "How to Register": [
-        "Respond to this email with a scanned copy of their passport data page, quoting the registration reference of the conference they are interested in.",
-        "In response, delegates will be required to pay a non-refundable Conference invitation and reservation fee of N225, 000. Note that this fee is part of the total packageof N980, 000. Payment method will be sent once we receive the data page in step 1 above",
-        "On receiving the data pages and payment, we will send the visa information form to the delegates, this will enable us complete the visa processing and schedule biometric and submission appointment."
+        "You can call or chatTayo on 08139686452, Fola on 08103051178, Oluwakemi on 07061047789, Stella on 08100380989(9am to 5pm weekdays) if you have further questions"
       ],
+      "Important Visa Information": [
+        "Virgin passport holders have been issued USA Visas on successful Visa interviews. Virgin passport holders can apply, however this is not a guarantee for Visa issuance, its is advisable to gain travel experience before your interview.",
+        "Visa appointment dates will be for 2024, second quarter in the latest.",
+        "If your USA Visa expired within the last 4 years, and you have not been refused Visa afterwards, then you qualify for interview waiver (Drop Box). Copy of expired Visa should be sent along with Data page of passport",
+        "This is not a family package, you cannot add children to this package"
+      ],
+      "VISA Types": ["2 Years VISA", "5 Years VISA", "10 Years VISA"],
+      "Special Info": [
+        "The United States is a country located in North America bordering the Atlantic Ocean and Pacific Ocean. Neighboring countries are Canada and Mexico.",
+        "The geography of the United States is varied with mountains in the west, a broad central plain, and low mountains in the east.",
+        "The government system is a constitution-based federal republic with a strong democratic tradition; the chief of state and head of government is the president.",
+        "This is where meeting spaces of every size boasting the latest technology share the stage with vibrant communities, networking and breathtaking natural beauty, insights and connections are gained during meetings."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "South Africa Package",
+    "subject": "We are all set for SA! Are you?. If not, grab this amazing last minute offer to visit South Africa",
+    "tag": "Trip",
+    "options": "1 Option",
+    "image": "/south-africa-img.jpg",
+    "includes": "Interested delegates should:",
+    "details": {
+      "Available programs": ["Summer Excursion Package"],
+      "Package Content": [
+        "Full day City Tour with hotel pick-up",
+        "6 Night Hotel Accommodation in Cape Town OR Johannesburg",
+        "Breakfast daily",
+        "South Africa Tourist e-Visa or sticker Visa"
+      ],
+      "How to Register": [
+        "For institutions, a manifest that contains full names of students, dates of birth, Full names and Telephone number of parent or Legal guardian is required. Certificate of registration of institution is also required.",
+        "Data pages of international passport of all travelling parties should be sent with the above to mavlonconsult@gmail.com",
+        "For individuals who wish to register their ward for our tour dates, It is mandatory that ONE of the parents or Legal Guardian accompanies the child(ren) on the tour. In this case, data pages of the international passport should be sent to mavlonconsult@gmail.com.",
+        "Payments for Excursions should be made to 0040384158 Mavlon Multi-Services Limited. Diamondbank."
+      ],
+      "VISA Types": ["2 Years VISA", "5 Years VISA", "10 Years VISA"],
       "Important Visa Information": [
         "UK visa application does not require interview",
         "Visa information and service is only available to delegates who register for the conference on or before the registration deadline",
         "Interested delegates will be required to appear in person for documents submission and bio metrics",
         "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements"
+      ],
+      "Instructions": [
+        "You can call on 08100380989, 08186259077, 08103051178 07061047789 (9am to 5pm weekdays)"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "Lebanon Package",
+    "subject": "We are all set for SA! Are you?. If not, grab this amazing last minute offer to visit South Africa",
+    "tag": "Trip",
+    "options": "1 Option",
+    "image": "/lebanon-img.jpg",
+    "includes": "Interested delegates should:",
+    "details": {
+      "Available programs": ["Summer Excursion Package"],
+      "Package Content": [
+       "2 full days of Tours in Beirut, Lebanon covering:",
+       "Jeita Grotto, Harissa and Byblos tours",
+       "Anjar and Baalbeck tours",
+       "Lunch during Tours",
+       "Pick up for tours at the Hotel",
+       "6 Night Hotel Accommodation in Beirut",
+       "Breakfast daily",
+       "Lebanon Visa is on arrival, you pay a small extra fee at the airport for this."
+      ],
+      "How to Register": [
+        "For institutions, a manifest that contains full names of students, dates of birth, Full names and Telephone number of parent or Legal guardian is required. Certificate of registration of institution is also required.",
+        "Data pages of international passport of all travelling parties should be sent with the above to mavlonconsult@gmail.com",
+        "For individuals who wish to register their ward for our tour dates, It is mandatory that ONE of the parents or Legal Guardian accompanies the child(ren) on the tour. In this case, data pages of the international passport should be sent to mavlonconsult@gmail.com.",
+        "Payments for Excursions should be made to 0040384158 Mavlon Multi-Services Limited. Diamondbank."
+      ],
+      "VISA Types": ["2 Years VISA", "5 Years VISA", "10 Years VISA"],
+      "Important Visa Information": [
+        "UK visa application does not require interview",
+        "Visa information and service is only available to delegates who register for the conference on or before the registration deadline",
+        "Interested delegates will be required to appear in person for documents submission and bio metrics",
+        "Documents required are proof of registered business or occupation and Proof of funds in terms of 6 months Bank Statements"
+      ],
+      "Instructions": [
+        "You can call on 08100380989, 08186259077, 08103051178 07061047789 (9am to 5pm weekdays)"
       ]
     }
   }
