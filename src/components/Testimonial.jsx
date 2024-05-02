@@ -27,7 +27,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="w-full h-auto">
+    <div className="w-full h-auto testimonial">
       <div className="bg-white pt-[44px] lg:[pt-72px] pb-[59px] lg:pb-[48px] w-full h-auto text-center">
         <div className="container">
           <h5 className="text-grey font-bold text-lg lg:text-xl">

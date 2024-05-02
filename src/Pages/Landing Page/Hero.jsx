@@ -1,12 +1,11 @@
-import heroBg from "../../assets/hero-bg.svg";
-// import union1 from "../../assets/Union1.svg";
-// import union2 from "../../assets/Union.svg";
+import union1 from "../../assets/Union1.svg";
+import union2 from "../../assets/Union.svg";
 import { Link } from "react-router-dom";
 
 const Hero = ({ scrollToContact }) => {
   return (
-    <main className="hero-section">
-      <section className="h-auto lg:h-[542px] text-center pt-[52px] md:pt-[69px] pb-[40px] lg:pb-0 relative container ">
+    <main className="hero-section relative overflow-hidden">
+      <section className="h-auto lg:h-[542px] text-center pt-[52px] md:pt-[69px] pb-[40px] lg:pb-0 container ">
         <header className="max-w-[804px] mx-auto flex flex-col gap-[41px]">
           <div className="mx-0 lg:mx-[19.5px]">
             <h1 className="text-5xl md:text-5.5xl lg:text-6xl text-darkgreen font-semibold leading-[35.28px] lg:leading-[53.76px]">
@@ -17,7 +16,7 @@ const Hero = ({ scrollToContact }) => {
               programs.
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row gap-[15px] justify-center">
+          <div className="flex flex-col lg:flex-row gap-[15px] justify-center w-full lg:w-[600px] mx-auto">
             <button
               onClick={scrollToContact}
               className="bg-white text-darkgreen rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold border-2 border-darkgreen m-0 text-lg lg:text-1xl"
@@ -29,9 +28,16 @@ const Hero = ({ scrollToContact }) => {
             </button>
           </div>
         </header>
-        {/* <img className="union-1" src={union1} alt="" />
-          <img src={heroBg} alt="" />
-        <img className="union-2" src={union2} alt="" /> */}
+        <img
+          className="absolute left-[-600px] top-[250px] hidden lg:block"
+          src={union1}
+          alt=""
+        />
+        <img
+          className="absolute right-[-500px] top-[400px] hidden lg:block"
+          src={union2}
+          alt=""
+        />
       </section>
     </main>
   );

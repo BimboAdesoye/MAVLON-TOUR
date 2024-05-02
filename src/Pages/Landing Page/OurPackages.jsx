@@ -1,4 +1,5 @@
 import arrow from "../../assets/view-more-arrow.svg";
+import { Link } from "react-router-dom";
 
 const OurPackages = () => {
   return (
@@ -11,7 +12,10 @@ const OurPackages = () => {
       </div>
       <div className="mt-[48px] flex flex-col lg:flex-row w-full gap-[14px] lg:[gap-14px]">
         <div className="h-[332px] lg:min-h-[571px] w-full lg:w-1/2 rounded-[24px] lg:rounded-br-none lg:rounded-bl-none package-bg-1 flex flex-col">
-          <div className="backdrop-filter backdrop-blur-md h-[150px] lg:h-[200px] mt-auto flex items-center justify-between relative px-[21px] lg:px-[32px] rounded-[24px] lg:rounded-[32px] lg:rounded-br-none lg:rounded-bl-none ">
+          <Link
+            to={"/programs"}
+            className="backdrop-filter backdrop-blur-md h-[150px] lg:h-[200px] mt-auto flex items-center justify-between relative px-[21px] lg:px-[32px] rounded-[24px] lg:rounded-[32px] lg:rounded-br-none lg:rounded-bl-none "
+          >
             <span className="text-white lg:max-w-[383px] text-left">
               <h3 className="font-semibold text-2xl lg:text-4.5xl">
                 Educational Packages
@@ -27,15 +31,18 @@ const OurPackages = () => {
               alt="arrow-icon"
               loading="lazy"
             />
-          </div>
+          </Link>
         </div>
         <div className="h-[332px] lg:min-h-[571px] w-full lg:w-1/2 rounded-[24px] lg:rounded-br-none lg:rounded-bl-none package-bg-2 flex flex-col">
-          <div className="bg-black bg-opacity-40 backdrop-filter backdrop-blur-md h-[150px] lg:h-[200px] mt-auto flex items-center justify-between relative px-[21px] lg:px-[32px] rounded-[24px] lg:rounded-[32px] lg:rounded-br-none lg:rounded-bl-none">
+          <Link
+            to={"/programs"}
+            className="bg-black bg-opacity-40 backdrop-filter backdrop-blur-md h-[150px] lg:h-[200px] mt-auto flex items-center justify-between relative px-[21px] lg:px-[32px] rounded-[24px] lg:rounded-[32px] lg:rounded-br-none lg:rounded-bl-none"
+          >
             <span className="text-white  text-left">
               <h3 className="font-semibold text-2xl lg:text-4.5xl md:leading-[37.2px]">
                 Trips & Vacation Packages
               </h3>
-              <p className="font-medium text-lg lg:max-w-[387px] lg:text-1xl leading-[18px] lg:leading-[22px]">
+              <p className="font-medium text-lg lg:max-w-[387px] lg:text-1xl leading-[18px] lg:leading-[22px] mt-2">
                 Our London Packages encompass a comprehensive exploration of
                 iconic landmarks such as.
               </p>
@@ -46,7 +53,7 @@ const OurPackages = () => {
               alt="arrow-icon"
               loading="lazy"
             />
-          </div>
+          </Link>
         </div>
       </div>
     </section>

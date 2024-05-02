@@ -22,7 +22,7 @@ const MoreDetails = ({ scrollRef }) => {
   return (
     <section
       ref={scrollRef}
-      className="bg-darkgreen w-full h-auto pt-[74px] lg:pt-[80px] pb-[50px] lg:pb-[100px]"
+      className="bg-darkgreen w-full h-auto pt-[74px] lg:pt-[80px] pb-[50px] lg:pb-[100px] more-details"
     >
       <div className="text-left lg:text-center w-full lg:max-w-[700px] mx-auto container">
         <h6 className="text-base lg:text-xl font-bold leading-[18.54px] lg:leading-[20.6px] text-white">

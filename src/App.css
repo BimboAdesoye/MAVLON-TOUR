@@ -28,11 +28,9 @@ body {
 
 .view-more-btn {
   background-color: #0000008f;
-  /* border-radius: 32px; */
   border: none;
   outline: none;
   padding: 22px;
-  /* font-size: 24px; */
 }
 
 .submit-btn {
@@ -42,12 +40,10 @@ body {
 
 @media screen and (max-width: 475px) {
   .view-more-btn {
-    /* border-radius: 16px; */
     margin-top: 50px;
     margin-left: 50px;
     outline: none;
     padding: 22px;
-    /* font-size: 16px; */
   }
 }
 
@@ -62,25 +58,10 @@ option {
 
 .hero-section {
   position: relative;
-  /* background-image: url("./assets/hero-bg.svg"); */
-  background-position: bottom;
-  background-size: auto 70%;
   background-repeat: no-repeat;
   background-blend-mode: color-burn;
+  background-image: url("./assets/background-hero-img.svg");
 }
-
-/* .hero-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-image: url("./assets/hero-bg.svg");
-  background-size: 100% 300px;
-  background-position: bottom; 
-  opacity: 0.5; 
-} */
 
 .package-bg-1 {
   background-image: url(./assets/graduation-image.jpg);
@@ -89,7 +70,6 @@ option {
   background-repeat: no-repeat;
 }
 
-/* background-image: url(./assets/travel-kit-img.svg); */
 .package-bg-2 {
   background-image: url(./assets/travel-kit-img.jpg);
   background-size: cover;
@@ -98,7 +78,6 @@ option {
 }
 
 .footer-nav ul li:first-child {
-  /* margin-bottom: 16px; */
   font-size: 14px;
   font-weight: 700;
   color: #667085;
@@ -135,7 +114,7 @@ option {
 }
 
 .top-packages .top-package-3 {
-  background-image: url(./assets/israel-img.svg);
+  background-image: url(/usa-img.jpg);
 }
 
 .top-packages .top-package-4 {
@@ -160,13 +139,14 @@ option {
   grid-column: span 3;
 }
 
-/* .top-packages .top-package-3 {
-  margin-left: 12px;
-} */
-
 .top-packages .top-package-4 {
   grid-column: span 3;
   grid-row: 3;
+}
+
+.top-packages-section {
+  background-image: url("./assets/24.svg");
+  background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -196,15 +176,24 @@ option {
     linear-gradient(0deg, #ffffff, #ffffff);
 }
 
-/* .top-packages-section {
-  position: relative;
+.about-mavlon {
+  background-image: url("./assets/21.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.top-packages-section .arrow {
-  height: 550px;
-  width: 1178.62px;
-  position: absolute;
-  left: -400px;
-} */
-/* left: -526.83px; */
-/* top: 1276.59px; */
+.more-details {
+  background-image: url("./assets/21.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-section {
+  background-image: url(./assets/22.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-values {
+  background-image: url("./assets/23.svg");
+}

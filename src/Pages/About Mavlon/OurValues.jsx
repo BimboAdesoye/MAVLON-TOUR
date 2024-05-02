@@ -4,7 +4,7 @@ import securityIcon from "../../assets/security-icon.svg";
 
 const OurValues = () => {
   return (
-    <section className="w-full bg-darkgreen pt-[74px] lg:pt-[70px]">
+    <section className="w-full bg-darkgreen pt-[74px] lg:pt-[70px] our-values">
       <div className="container pb-[51px] lg:pb-0">
         <h5 className="font-bold text-whiteAccent text-lg lg:text-2xl leading-[18.54px] lg:leading-[24.72px] mb-[16px] lg:mb-[24px]">
           WHO ARE WE
@@ -78,7 +78,7 @@ const OurValues = () => {
                 Speed
               </p>
             </span>
-            <p className="lg:max-w-[284px] max-w-[300px] mx-auto lg:mx-0 text-center lg:text-left font-semibold text-ash text-xl lg:text-2xl leading-[18.54px] lg:leading-[24px]">
+            <p className="lg:max-w-[284px] max-w-[300px] mx-auto lg:mx-0 text-center lg:text-left font-semibold text-black text-xl lg:text-2xl leading-[18.54px] lg:leading-[24px]">
               Your experience of the wonders of the best beaches, Island
               Resorts,
             </p>

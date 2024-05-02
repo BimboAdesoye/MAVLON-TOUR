@@ -33,7 +33,7 @@ const TopPackages = () => {
           </div>
           <div className="h-[140px] lg:h-[264.33px] w-full rounded-[16.34px] top-package-3 flex flex-col border-2 lg:border-4 border-borderColor2 overflow-hidden">
             <span className="mt-auto w-[70%] lg:w-[215px] bg-btnColor2 backdrop-filter backdrop-blur-md rounded-tr-3xl">
-              <CityBtn text={"Israel"} />
+              <CityBtn text={"USA"} />
             </span>
           </div>
           <div className="h-[140px] lg:h-[150.33px] w-full rounded-[16.34px] lg:rounded-br-none lg:rounded-bl-none top-package-4 flex flex-col border-2 lg:border-4  border-borderColor2 lg:border-b-0 justify-center items-center">
