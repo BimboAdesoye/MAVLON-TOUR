@@ -63,8 +63,9 @@ const OurValues = () => {
               </p>
             </span>
             <p className="lg:max-w-[284px] max-w-[300px] mx-auto lg:mx-0 text-center lg:text-left font-semibold text-ash text-xl lg:text-2xl leading-[18.54px] lg:leading-[24px]">
-              Your experience of the wonders of the best beaches, Island
-              Resorts,
+              Efficient, quality travel experiences with top-notch security,
+              ensuring peace of mind in every adventure. Your journey begins
+              here.
             </p>
           </div>
           <div className="flex flex-col flex-1 gap-[22px] min-h-[136px] lg:h-[203px] items-center lg:items-start justify-center pl-0 lg:pl-[22px] bg-mediumgreen">
@@ -79,8 +80,9 @@ const OurValues = () => {
               </p>
             </span>
             <p className="lg:max-w-[284px] max-w-[300px] mx-auto lg:mx-0 text-center lg:text-left font-semibold text-black text-xl lg:text-2xl leading-[18.54px] lg:leading-[24px]">
-              Your experience of the wonders of the best beaches, Island
-              Resorts,
+              Efficient, quality travel experiences with top-notch security,
+              ensuring peace of mind in every adventure. Your journey begins
+              here.
             </p>
           </div>
           <div className="flex flex-col flex-1 gap-[22px] min-h-[136px] lg:h-[203px] items-center lg:items-start justify-center pl-0 lg:pl-[22px] bg-white">
@@ -95,8 +97,9 @@ const OurValues = () => {
               </p>
             </span>
             <p className="lg:max-w-[284px] max-w-[300px] mx-auto lg:mx-0 text-center lg:text-left font-semibold text-ash text-xl lg:text-2xl leading-[18.54px] lg:leading-[24px]">
-              Your experience of the wonders of the best beaches, Island
-              Resorts,
+              Efficient, quality travel experiences with top-notch security,
+              ensuring peace of mind in every adventure. Your journey begins
+              here.
             </p>
           </div>
         </div>
