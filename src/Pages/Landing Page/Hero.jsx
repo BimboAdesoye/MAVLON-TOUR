@@ -16,7 +16,7 @@ const Hero = ({ scrollToContact }) => {
               programs.
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row gap-[15px] justify-center w-full lg:w-[600px] mx-auto">
+          <div className="flex flex-col lg:flex-row gap-[15px] justify-center w-full lg:w-[650px] mx-auto">
             <button
               onClick={scrollToContact}
               className="bg-white text-darkgreen rounded-[50px] lg:rounded-[49px] px-[10px] py-[20px] w-full mx-auto h-[56px] lg:h-[58px] flex items-center justify-center font-semibold border-2 border-darkgreen m-0 text-lg lg:text-1xl"
