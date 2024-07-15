@@ -4,7 +4,7 @@ const Milestones = () => {
       <div className="h-full flex flex-1 text-center lg:text-left items-center container">
         <div className="max-w-[150px] mx-auto lg:mx-0">
           <h2 className="text-5xl md:text-5.5xl lg:text-6xl text-darkgreen font-semibold">
-            200+
+            5000+
           </h2>
           <p className="text-lg md:text-xl lg:text-1xl text-darkgreen font-medium">
             Trips processed & Completed

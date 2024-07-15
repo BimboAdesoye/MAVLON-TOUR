@@ -55,7 +55,7 @@ const Contact = ({ scrollRef }) => {
                     Mon-Fri from 8am to 5pm.
                   </p>
                   <p className="text-mediumgreen font-bold lg:text-2xl text-xl">
-                    08103051178, 08139686452
+                    08103051178, 08100380989, 08139686452, 07061047789
                   </p>
                 </span>
               </span>
