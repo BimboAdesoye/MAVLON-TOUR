@@ -1,32 +1,37 @@
 [
   {
-    "question": "What destinations do you offer in your London Packages?",
-    "answer": "Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle.",
+    "question": "What countries do you have packages for?",
+    "answer": "We curently have packages for UK, US, Canada, France, Qatar, Lebanon, Mauritius, Rwanda, Kenya",
     "tag": "educational"
   },
   {
-    "question": "Can I customize my Europe Package according to my preferences?",
-    "answer": "Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle.",
+    "question": "What's the timeframe for the visa to be processed after submission?",
+    "answer": "France: 20 working days, Canada: 30 - 90 working days, UK: 4 - 6 weeks, US: 10 working days",
     "tag": "educational"
   },
   {
-    "question": "Tell me more about the Canada Packages you provide.",
-    "answer": "Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle.",
+    "question": "Does Mavlon have another location outside of Lagos?",
+    "answer": "No, we have one location. In Lagos.",
     "tag": "leisure"
   },
   {
-    "question": "What makes your Israel Pilgrimage unique?",
-    "answer": "Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle.",
+    "question": "What packages do you have?",
+    "answer": "Conferences, Vacations, Study Packages and Direct Entry (Canada Resident Permit throught the Express Entry).",
     "tag": "leisure"
   },
   {
-    "question": "Do you offer specialized USA Packages for different regions?",
-    "answer": "Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle.",
+    "question": "If my visa is denied, can I reapply?",
+    "answer": "Yes, you can reapply.",
     "tag": "booking"
   },
   {
-    "question": "What attractions are included in your South Africa Packages?",
-    "answer": "Our London Packages encompass a comprehensive exploration of iconic landmarks such as the Tower of London, Buckingham Palace, the British Museum, and more. Additionally, our itineraries often include day trips to nearby attractions like Stonehenge or Windsor Castle.",
+    "question": "Can I apply without an international passport?",
+    "answer": "No. You need to get a valid international passport before contacting us for visa application",
+    "tag": "booking"
+  },
+  {
+    "question": "Can I apply with my family?",
+    "answer": "For a vacation? Yes. For a business expo or Conference? No. Please, reach out to us for more details on this.",
     "tag": "booking"
   }
 ]
